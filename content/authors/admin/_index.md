@@ -18,10 +18,9 @@ organizations:
 - url: "http://ssls.nus.edu.sg/"
 
 # Short bio (displayed in user profile at end of posts)
-I work as beam-line scientist at Singapore Synchrotron Light Source. My research interests include application of advanced statistical methods for hyperspectral data processing (dimension reduction, clustering and identification).
+bio: I work as beam-line scientist at Singapore Synchrotron Light Source. My research interests include application of advanced statistical methods for hyperspectral data processing (dimension reduction, clustering and identification).
 
-
-interests:
+ interests:
  - Multivariate Statistical Analysis
  - Fourier Transform Infrared Spectroscopy
  - R Environment
@@ -29,6 +28,8 @@ interests:
  - Data Visualisation
  - X-ray Flourescence Spectroscopy
  - Tomography and Imaging
+
+
 
 
 education:
