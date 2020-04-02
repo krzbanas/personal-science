@@ -20,17 +20,15 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I work as beam-line scientist at Singapore Synchrotron Light Source. My research interests include application of advanced statistical methods for hyperspectral data processing (dimension reduction, clustering and identification).
 
- interests:
- - Multivariate Statistical Analysis
- - Fourier Transform Infrared Spectroscopy
- - R Environment
- - Reproducible Researc
- - Data Visualisation
- - X-ray Flourescence Spectroscopy
- - Tomography and Imaging
-
-
-
+# List each interest with a dash
+interests:
+- Multivariate Statistical Analysis
+- Fourier Transform Infrared Spectroscopy
+- R Environment
+- Reproducible Researc
+- Data Visualisation
+- X-ray Flourescence Spectroscopy
+- Tomography and Imaging
 
 education:
   courses:
