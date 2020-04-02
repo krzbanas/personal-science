@@ -21,21 +21,23 @@ organizations:
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+ - Multivariate Statistical Analysis
+ - Fourier Transform Infrared Spectroscopy
+ - R Environment
+ - Reproducible Researc
+ - Data Visualisation
+ - X-ray Flourescence Spectroscopy
+ - Tomography and Imaging
+
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: PhD in Physics
+    institution: Jagiellonian University, Krakow, Poland
+    year: 2004
+  - course: MSc in Physics
+    institution: Jagiellonian University, Krakow, Poland
+    year: 1996
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -70,6 +72,27 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I work as beam-line scientist at Singapore Synchrotron Light Source. My research interests include application of advanced statistical methods for hyperspectral data processing (dimension reduction, clustering and identification).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+
+
+
+
+
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "PhD in Physics"
+  institution = "Jagiellonian University, Krakow, Poland"
+  year = 2004
+
+[[education.courses]]
+  course = "MSc in Physics"
+  institution = "Jagiellonian University, Krakow, Poland"
+  year = 1996
+ 
++++
+
+# Biography
+
+
