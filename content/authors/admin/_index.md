@@ -15,7 +15,7 @@ role: Senior Research Fellow
 # Organizations/Affiliations
 organizations:
 - name: Singapore Synchrotron Light Source
-  url: "http://ssls.nus.edu.sg/"
+- url: "http://ssls.nus.edu.sg/"
 
 # Short bio (displayed in user profile at end of posts)
 I work as beam-line scientist at Singapore Synchrotron Light Source. My research interests include application of advanced statistical methods for hyperspectral data processing (dimension reduction, clustering and identification).
@@ -71,7 +71,6 @@ email: ""
 user_groups:
 - Researchers
 - Visitors
----
 
-bio
+---
 
