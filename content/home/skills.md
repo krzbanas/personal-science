@@ -18,7 +18,7 @@ subtitle = ""
   icon = "r-project"
   icon_pack = "fab"
   name = "R"
-  description = "90%"
+  description = "100%"
   
 [[feature]]
   icon = "chart-line"
@@ -27,9 +27,15 @@ subtitle = ""
   description = "100%"  
   
 [[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
+  name = "Synchrotrons"
+  description = "100%" 
+  
+[[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
   name = "Photography"
-  description = "10%"
+  description = "30%"
 
 +++
