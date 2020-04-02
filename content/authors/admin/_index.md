@@ -72,25 +72,7 @@ user_groups:
 - Researchers
 - Visitors
 ---
-
-
-
-
-
-
-# List your qualifications (such as academic degrees).
-[[education.courses]]
-  course = "PhD in Physics"
-  institution = "Jagiellonian University, Krakow, Poland"
-  year = 2004
-
-[[education.courses]]
-  course = "MSc in Physics"
-  institution = "Jagiellonian University, Krakow, Poland"
-  year = 1996
- 
 +++
 
-# Biography
 
 
