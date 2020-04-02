@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Krzysztof Banas
 
 # Username (this should match the folder name)
 authors:
@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Senior Research Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: Singapore Synchrotron Light Source
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
