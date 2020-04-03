@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec"]
 title = "Import multiple txt files (folder) to single hyperSpec object"
 summary = """
-Import multiple txt files to single hyperSpec object with timestamps extracted from filenames
+Import multiple txt files to single hyperSpec object with timestamps extracted from filenames.
 """
 math = false
 +++
