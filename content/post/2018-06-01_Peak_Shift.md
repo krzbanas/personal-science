@@ -45,4 +45,4 @@ ggplot(longmat, aes(x = Var2, y = Var1)) +
 # save plot to file
 ggsave("Frequency_Shift_1108.png", width=9, height=8)
 ```
-{{< figure src="Frequency_Shift_1108.png" title="Frequency Peak Shift Map" >}}
+{{< figure library= "true" src="Frequency_Shift_1108.png" title="Frequency Peak Shift Map" >}}
