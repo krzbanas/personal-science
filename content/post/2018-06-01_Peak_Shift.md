@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec"]
 title = "Function to find spectral peak shift"
 summary = """
-Defining and using function to find spectral peak shift
+Defining and using function to find spectral peak shift.
 """
 math = false
 +++
