@@ -28,4 +28,3 @@ caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
 
-Text
