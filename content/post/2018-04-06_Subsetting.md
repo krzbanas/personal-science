@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec", "Subset"]
 title = "Subsetting hyperspectral object"
 summary = """
-
+Subsetting hyperspectral object: partial spectral range, spectra from one group etc.
 """
 math = false
 +++
