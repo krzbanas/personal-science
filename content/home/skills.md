@@ -27,7 +27,7 @@ subtitle = ""
   description = "100%"  
   
 [[feature]]
-  icon = "chart-line"
+  icon = "ring"
   icon_pack = "fas"
   name = "Synchrotrons"
   description = "100%" 
