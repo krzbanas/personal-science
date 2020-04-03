@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec"]
 title = "Numerical integration in R"
 summary = """
-This is example of R code embedded into post.
+Numerical integration for FTIR spectra in R
 """
 math = false
 +++
