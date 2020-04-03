@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec"]
 title = "Function to find spectral peak shift"
 summary = """
-
+Defining and using function to find spectral peak shift
 """
 math = false
 +++
@@ -45,4 +45,4 @@ ggplot(longmat, aes(x = Var2, y = Var1)) +
 # save plot to file
 ggsave("Frequency_Shift_1108.png", width=9, height=8)
 ```
-{{< figure src="/img/Frequency_Shift_1108.png" title="Frequency Peak Shift Map" >}}
+{{< figure src="Frequency_Shift_1108.png" title="Frequency Peak Shift Map" >}}
