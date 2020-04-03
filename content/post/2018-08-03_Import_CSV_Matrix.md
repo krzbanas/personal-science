@@ -30,5 +30,4 @@ object01<-new("hyperSpec", wavelength = wavenumber,
               spc = spectra, data=addata)
 #check
 object01
-
 ```
