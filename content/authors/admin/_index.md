@@ -54,7 +54,7 @@ social:
   icon_pack: fab
   link: https://github.com/krzbanas
 - icon: twitter
-  icon_pack: fa
+  icon_pack: fab
   link: https://twitter.com/KrzBan
 - icon: researchgate
   icon_pack: ai
