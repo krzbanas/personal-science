@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec"]
 title = "All Spectra with manual colours"
 summary = """
-
+Ploting all spectra from one hyperSpec object with colours set manually
 """
 math = false
 +++
