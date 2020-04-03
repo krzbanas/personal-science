@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec", "Clusters"]
 title = "Calculate the number and percentage of spectra in each cluster"
 summary = """
-
+Calculating the number and percentage of pixels with spectra in each cluster
 """
 math = false
 +++
