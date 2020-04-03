@@ -199,7 +199,7 @@ plugins_js  = []
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 1
+  post_view = 2
   publication_view = 4
   talk_view = 2
 
