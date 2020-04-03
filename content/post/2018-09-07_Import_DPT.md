@@ -26,7 +26,7 @@ y = rep (seq(from=0, to=2.7*(x1-1), by=2.7), each=y1)
 d = data.frame(x,y)
 # defining hyperSpec object
 map01 <- new ("hyperSpec", wavelength = file [,1], spc = t (file [, -1]),
-              data = d,label = list(.wavelength = "Wavenumber /cm-1",
-                                    spc = "I / a.u."))
+              data = d,label = list(.wavelength = "Wavenumber /cm-1",spc = "I / a.u."))
+#check
 map01
 ```
