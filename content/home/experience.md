@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   location = "Singapore"
   date_start = "2007-03-01"
   date_end = "2015-12-31"
-  description = """Beamline Scientist: PCIT ISMI"""
+  description = """Beamline Scientist: PCIT and ISMI"""
 
 [[experience]]
   title = "Adjunct"
