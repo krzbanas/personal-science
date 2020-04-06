@@ -36,10 +36,10 @@ date_format = "Jan 2006"
   title = "Research Scientist"
   company = "Singapore Synchrotron Light Source"
   company_url = "http://ssls.nus.edu.sg/"
-  location = "CSingapore"
+  location = "Singapore"
   date_start = "2007-03-01"
   date_end = "2015-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """Beamline Scientist: PCIT ISMI"""
 
 [[experience]]
   title = "Adjunct"
@@ -48,7 +48,7 @@ date_format = "Jan 2006"
   location = "Poland"
   date_start = "2004-11-01"
   date_end = "2006-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """Magnetic Resonance Imaging and Diffusion Coefficien Experiments"""
   
   [[experience]]
   title = "Post Doc"
@@ -57,7 +57,7 @@ date_format = "Jan 2006"
   location = "Germany"
   date_start = "2002-07-01"
   date_end = "2004-06-30"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  description = """Pulse field NMR experiments for diffusion in zeolites estimation"""
 
 
 
