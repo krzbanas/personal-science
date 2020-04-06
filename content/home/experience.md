@@ -2,7 +2,7 @@
 # Experience widget.
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Experience"
@@ -36,27 +36,27 @@ date_format = "Jan 2006"
   title = "Research Scientist"
   company = "Singapore Synchrotron Light Source"
   company_url = "http://ssls.nus.edu.sg/"
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
+  location = "CSingapore"
+  date_start = "2007-03-01"
+  date_end = "2015-12-31"
   description = """Taught electronic engineering and researched semiconductor physics."""
 
 [[experience]]
   title = "Adjunct"
-  company = "Singapore Synchrotron Light Source"
-  company_url = "http://ssls.nus.edu.sg/"
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
+  company = "Institute of Nuclear Physics Polish Academy of Sciences"
+  company_url = "https://www.ifj.edu.pl/en/index.php"
+  location = "Poland"
+  date_start = "2004-11-01"
+  date_end = "2006-12-31"
   description = """Taught electronic engineering and researched semiconductor physics."""
   
   [[experience]]
   title = "Post Doc"
-  company = "Singapore Synchrotron Light Source"
-  company_url = "http://ssls.nus.edu.sg/"
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
+  company = "University Leipizg"
+  company_url = "https://www.uni-leipzig.de/en/"
+  location = "Germany"
+  date_start = "2002-07-01"
+  date_end = "2004-06-30"
   description = """Taught electronic engineering and researched semiconductor physics."""
 
 
