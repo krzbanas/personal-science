@@ -18,27 +18,47 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Senior Research Fellow"
+  company = "Singapore Synchrotron Light Source"
+  company_url = "http://ssls.nus.edu.sg/"
+  location = "Singapore"
+  date_start = "2016-01-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Experiments at PCIT and ISMI beamlines
+  * Data Analysis
+  * Publishing Results
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
+  title = "Research Scientist"
+  company = "Singapore Synchrotron Light Source"
+  company_url = "http://ssls.nus.edu.sg/"
   location = "California"
   date_start = "2016-01-01"
   date_end = "2016-12-31"
   description = """Taught electronic engineering and researched semiconductor physics."""
+
+[[experience]]
+  title = "Adjunct"
+  company = "Singapore Synchrotron Light Source"
+  company_url = "http://ssls.nus.edu.sg/"
+  location = "California"
+  date_start = "2016-01-01"
+  date_end = "2016-12-31"
+  description = """Taught electronic engineering and researched semiconductor physics."""
+  
+  [[experience]]
+  title = "Post Doc"
+  company = "Singapore Synchrotron Light Source"
+  company_url = "http://ssls.nus.edu.sg/"
+  location = "California"
+  date_start = "2016-01-01"
+  date_end = "2016-12-31"
+  description = """Taught electronic engineering and researched semiconductor physics."""
+
+
 
 +++
