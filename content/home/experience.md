@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """
   Responsibilities include:
   
-  * Experiments at PCIT and ISMI beamlines
+  * Experiments at PCIT and ISMI Beamlines
   * Data Analysis
   * Publishing Results
   """
@@ -48,7 +48,7 @@ date_format = "Jan 2006"
   location = "Poland"
   date_start = "2004-11-01"
   date_end = "2006-12-31"
-  description = """Magnetic Resonance Imaging and Diffusion Coefficien Experiments"""
+  description = """Magnetic Resonance Imaging and Diffusion Coefficient Experiments"""
   
   [[experience]]
   title = "Post Doc"
@@ -57,7 +57,7 @@ date_format = "Jan 2006"
   location = "Germany"
   date_start = "2002-07-01"
   date_end = "2004-06-30"
-  description = """Pulse field NMR experiments for diffusion in zeolites estimation"""
+  description = """Pulse Field NMR Experiments for Diffusion Estimation in Zeolites"""
 
 
 
