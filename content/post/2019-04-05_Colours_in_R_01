@@ -2,13 +2,14 @@
 date = "2019-04-05"
 lastmod = "2019-04-05"
 draft = false
-tags = ["R", "hyperspec", "colours"]
-title = "Define your own colours in R - part 1"
+tags = ["R", "hyperspec"]
+title = "Define your own colours in R part 1"
 summary = """
-Colours in R, RBrewer and others
+Colours in R RBrewer and others.
 """
 math = false
 +++
+
 
 
 ```r
@@ -31,4 +32,6 @@ colors06 <- colorRampPalette(brewer.pal(6, "Reds"))
 barplot(c(1:4), col=colors06(10))
 ```
 {{< figure library= "true" src="colours_red.png" title="bar plot with 10 shades of Red">}}
+
+
 
