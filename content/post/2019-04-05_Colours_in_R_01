@@ -15,7 +15,7 @@ math = false
 library("RColorBrewer")
 display.brewer.all()
 ```
-{{< figure library= "true" src="RBrewer.png" title="R Color Brewer" >}}
+{{< figure library= "true" src="rBrewer.png" title="R Color Brewer" >}}
 
 
 
