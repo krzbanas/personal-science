@@ -17,8 +17,6 @@ display.brewer.all()
 ```
 {{< figure library= "true" src="rBrewer.png" title="R Color Brewer" >}}
 
-
-
 ```r
 #palette with 37 colours
 
