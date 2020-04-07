@@ -1,6 +1,6 @@
 +++
-date = "2019-03-07"
-lastmod = "2019-03-07"
+date = "2019-03-01"
+lastmod = "2019-03-01"
 draft = false
 tags = ["R", "hyperspec", "MCA", "XRF"]
 title = "Import MCA data from Amptek detector (SRIXE)"
