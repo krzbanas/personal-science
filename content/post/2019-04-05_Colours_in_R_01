@@ -22,9 +22,6 @@ colors06 <- colorRampPalette(brewer.pal(6, "Reds"))
 barplot(c(1:4), col=colors06(10))
 ```
 
-{{<figure library= "true" src="rBrewer.png" title="R Color Brewer">}}
-{{<figure library= "true" src="colours37.png" title="Bar plot with 37 colours">}}
-{{<figure library= "true" src="colours_red.png" title="bar plot with 10 shades of Red">}}
 
 
 
