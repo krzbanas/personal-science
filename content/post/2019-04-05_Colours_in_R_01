@@ -10,6 +10,7 @@ Colours in R, RBrewer and others
 math = false
 +++
 
+
 ```r
 library("RColorBrewer")
 display.brewer.all()
