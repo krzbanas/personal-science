@@ -25,7 +25,7 @@ interests:
 - Multivariate Statistical Analysis
 - Fourier Transform Infrared Spectroscopy
 - R Environment
-- Reproducible Researc
+- Reproducible Research
 - Data Visualisation
 - X-ray Flourescence Spectroscopy
 - Tomography and Imaging
