@@ -18,7 +18,7 @@ n <- 100
 x <- rnorm(n )
 y <- 2*x + rnorm (n)
 out <- lm(y ~ x)
-library(knitr )
+library(knitr)
 kable(summary (out)$ coef, digits=2)
 ```
 Another option comes from  pander package http://rapporter.github.io/pander/
@@ -30,7 +30,7 @@ y <- 2*x + rnorm (n)
 out <- lm(y ~ x)
 library(pander )
 panderOptions("digits" , 2 )
-pander(out )
+pander(out)
 ```
 
 Finally there is package called xtable https://cran.r-project.org/web/packages/xtable/index.html
@@ -40,7 +40,7 @@ n <- 100
 x <- rnorm(n )
 y <- 2*x + rnorm (n)
 out <- lm(y ~ x)
-library(xtable )
+library(xtable)
 tab <- xtable (summary(out)$coef , digits=c (0, 2, 2, 1, 2))
 print(tab, type ="html")
 ```
