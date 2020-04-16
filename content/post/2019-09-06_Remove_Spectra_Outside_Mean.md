@@ -1,9 +1,9 @@
 
 +++
-date = "2019-09-06
+date = "2019-09-06"
 lastmod = "2019-09-06"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperspec", "Outlier"]
 title = "Removing Spectra outside mean ± n sd"
 summary = """
 
