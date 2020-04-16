@@ -2,7 +2,7 @@
 date = "2018-07-06"
 lastmod = "2018-07-06"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperspec", "Import", "csv"]
 title = "Import multiple txt files (folder) to single hyperSpec object"
 summary = """
 Import multiple txt files to single hyperSpec object with timestamps extracted from filenames.
