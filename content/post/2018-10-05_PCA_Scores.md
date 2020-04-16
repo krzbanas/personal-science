@@ -4,7 +4,7 @@
 date = "2018-10-05"
 lastmod = "2018-10-05"
 draft = false
-tags = ["R", "hyperspec", "PCA"]
+tags = ["R", "PCA"]
 title = "PCA Scores ploted with ggplot2"
 summary = """
 PCA Scores ploted with ggplot2
