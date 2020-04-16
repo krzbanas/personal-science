@@ -2,7 +2,7 @@
 date = "2018-05-04"
 lastmod = "2018-05-04"
 draft = false
-tags = ["R", "hyperspec", "Clusters"]
+tags = ["R", "hyperspec", "Clusters", "Calculations"]
 title = "Calculate the number and percentage of spectra in each cluster"
 summary = """
 Calculating the number and percentage of pixels with spectra in each cluster
