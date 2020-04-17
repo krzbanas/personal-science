@@ -3,7 +3,7 @@ date = "2019-10-04"
 lastmod = "2019-10-04"
 draft = false
 tags = ["R", "derivatives", "S-G filter"]
-title = "Title"
+title = "First and Second Derivative"
 summary = """
 
 """
