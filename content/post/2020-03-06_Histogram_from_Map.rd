@@ -34,4 +34,4 @@ ratio2920<-as.data.frame(inten01n$spc)
 ```
 
 
-{{< figure library= "true" src="histogram01.png" title="Histogram of the pixel intergal values" >}}
+{{< figure library= "true" src="histogram_01.png" title="Histogram of the pixel intergal values" >}}
