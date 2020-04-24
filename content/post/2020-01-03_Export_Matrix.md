@@ -3,7 +3,7 @@
 date = "2020-01-03"
 lastmod = "2020-01-03"
 draft = false
-tags = ["R", "hyperspec", "export"]
+tags = ["R", "hyperspec", "Export"]
 title = "Export matrix with PC or cluster number to csv"
 summary = """
 
