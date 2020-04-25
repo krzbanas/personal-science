@@ -2,7 +2,7 @@
 date = "2019-11-01"
 lastmod = "2019-11-01"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperspec", "ggplot2", "plot"]
 title = "Ploting FTIR spectrum with ggplot2 - clean theme"
 summary = """
 
