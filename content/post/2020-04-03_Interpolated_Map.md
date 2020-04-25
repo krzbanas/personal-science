@@ -3,7 +3,7 @@
 date = "2020-04-03"
 lastmod = "2020-04-03"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperspec", "interpolation"]
 title = "Map of the Integral (Interpolated) with Annotations"
 summary = """
 
