@@ -3,10 +3,10 @@
 date = "2016-04-04"
 
 # Project title.
-title = "Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique"
+title = "Chemical Heterogenity of Carbon Nanotubes assemblies"
 
 # Project summary to display on homepage.
-summary = "Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique."
+summary = "Chemical Heterogenity of Carbon Nanotubes assemblies probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "CNT.png"
@@ -27,4 +27,4 @@ image = "headers/CNT01.png"
 caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
-This is content of the project page.
+Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique.
