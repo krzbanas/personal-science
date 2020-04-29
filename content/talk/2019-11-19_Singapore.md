@@ -7,8 +7,8 @@ time_end = 2019-11-20T14:30:00
 abstract = "abstract"
 abstract_short = ""
 event = "2nd ISMI Workshop"
-event_url = "https://doddwalls.ac.nz/10th-international-conference-on-advanced-vibrational-spectroscopy-icavs/"
-location = "Singapore, Singapore
+event_url = ""
+location = "Singapore, Singapore"
 
 # Is this a selected talk? (true/false)
 selected = false
