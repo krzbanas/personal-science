@@ -6,14 +6,14 @@ date = "2019-05-01"
 title = "Red Blood Cells - Malaria"
 
 # Project summary to display on homepage.
-summary = "Biofilms FTIR and confocal"
+summary = "Red Blood Cells - Malaria"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "CNT.png"
+image_preview = "RBC.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["CNT", "AFM-IR", "FTIR", "Raman"]
+tags = ["RBC", "AFM-IR", "FTIR", "Malaria", "O-PTIR"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
