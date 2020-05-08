@@ -5,8 +5,10 @@ lastmod = "2020-04-03"
 draft = false
 tags = ["R", "hyperspec", "interpolation"]
 title = "Map of the Integral (Interpolated) with Annotations"
-summary = """
-
+summary: "Create a beautifully simple personal or academic website in under 10 minutes."
+header:
+  image: "Interpolated.png"
+  caption: "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
 """
 math = false
 +++
