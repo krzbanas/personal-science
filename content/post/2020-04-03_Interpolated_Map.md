@@ -5,12 +5,10 @@ lastmod = "2020-04-03"
 draft = false
 tags = ["R", "hyperspec", "interpolation"]
 title = "Map of the Integral (Interpolated) with Annotations"
-summary = "Integral Map with Annotations."
+summary = """Integral Map with Annotations.
 """
 math = false
 +++
-
-
 
 ```r
 library(hyperSpec)
