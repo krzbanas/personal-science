@@ -8,7 +8,12 @@ title = "Map of the Integral (Interpolated) with Annotations"
 summary = """Integral Map with Annotations.
 """
 math = false
+[header]
+-image = "Interpolated.png"
+-caption= "Image caption"
 +++
+
+
 
 ```r
 library(hyperSpec)
