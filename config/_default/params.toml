@@ -200,8 +200,8 @@ plugins_js  = []
   #   3: Card
   #   4: Citation (publications only)
   post_view = 3
-  publication_view = 2
-  talk_view = 2
+  publication_view = 4
+  talk_view = 1
 
 ############################
 ## Comments
