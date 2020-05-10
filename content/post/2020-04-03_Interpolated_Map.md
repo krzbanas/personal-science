@@ -9,8 +9,8 @@ summary = """Integral Map with Annotations.
 """
 math = false
 [header]
--image = "Interpolated.png"
--caption= "Image caption"
+image = "headers/Interpolated.png"
+caption= "Image caption"
 +++
 
 
