@@ -2,10 +2,10 @@
 date = "2018-04-06"
 lastmod = "2018-04-06"
 draft = false
-tags = ["R", "hyperspec", "Subset"]
+tags = ["R", "hyperspec", "subset"]
 title = "Subsetting hyperspectral object"
 summary = """
-Subsetting hyperspectral object: partial spectral range, spectra from one group etc.
+Subsetting hyperspectral object: partial spectral range, spectra selected by indices, spectra from one group (name based selection) etc.
 """
 math = false
 +++
