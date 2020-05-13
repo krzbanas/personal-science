@@ -2,7 +2,7 @@
 date = "2018-03-02"
 lastmod = "2018-03-02"
 draft = false
-tags = ["R", "hyperspec", "Palette"]
+tags = ["R", "hyperspec", "palette"]
 title = "All Spectra with manual colours"
 summary = """
 Ploting all spectra from one hyperSpec object with colours set manually
@@ -11,7 +11,7 @@ math = false
 +++
 
 
-Plot all spectra from the hyperSpec object with manually set colours
+Plot all spectra from the hyperSpec object with manually set colours. Palette define by brewer.pal and colorRampPalette functions.
 ```r
 nspectra<-nrow(object01)
 pal01<-colorRampPalette(brewer.pal(nspectra, "Set1")) 
