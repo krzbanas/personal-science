@@ -9,9 +9,7 @@ Numerical integration for FTIR spectra in R
 """
 math = false
 +++
-
-
-Numerical integration in R
+Numerical integration in R by fitting a piece-wise linear function.
 
 ```r
 # example based on: http://tolstoy.newcastle.edu.au/R/help/04/10/6138.html
