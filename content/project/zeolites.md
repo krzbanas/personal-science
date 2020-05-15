@@ -6,7 +6,7 @@ date = "2002-07-01"
 title = "Zeolites"
 
 # Project summary to display on homepage.
-summary = "Zeolites diffusion"
+summary = "Zeolites diffusion PFG-NMR"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "CNT.png"
@@ -27,4 +27,3 @@ image = "headers/CNT01.png"
 caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
-Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique.
