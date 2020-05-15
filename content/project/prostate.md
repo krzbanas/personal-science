@@ -1,9 +1,9 @@
 +++
 # Date this page was created.
-date = "2013-01-03"
+date = "2004-01-03"
 
 # Project title.
-title = "Prostate"
+title = "Prostate elemental analysis"
 
 # Project summary to display on homepage.
 summary = "Prostate SRIXE"
@@ -27,4 +27,3 @@ image = "headers/CNT01.png"
 caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
-Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique.
