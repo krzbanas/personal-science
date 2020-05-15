@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Krzysztof Banas official website with publications, talks and projects - Senior research fellow - Singapore Synchrotron Light Source"
 
 ############################
 ## Site Features
