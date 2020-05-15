@@ -6,7 +6,7 @@ date = "2019-05-01"
 title = "Red Blood Cells - Malaria"
 
 # Project summary to display on homepage.
-summary = "Red Blood Cells - Malaria"
+summary = "RBC Malaria FTIR oPTIR AFM-IR"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "RBC.png"
@@ -27,4 +27,3 @@ image = "headers/CNT01.png"
 caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
-Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique.
