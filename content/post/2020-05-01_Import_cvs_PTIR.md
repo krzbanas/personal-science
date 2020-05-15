@@ -33,6 +33,3 @@ addata1<-round(addata,digits=2)
 hypspec1<-new("hyperSpec", wavelength = wavenumber,
               spc = spectra, data=addata1)
 ```
-
-
-{{< figure library= "true" src="Interpolated.png" title="Interpolated Map with Annotations" >}}
