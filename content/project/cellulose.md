@@ -1,6 +1,6 @@
 +++
 # Date this page was created.
-date = "2013-01-03"
+date = "1999-01-03"
 
 # Project title.
 title = "Celullose"
@@ -27,4 +27,3 @@ image = "headers/CNT01.png"
 caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
-Chemical Heterogenity of Carbon Nanotubes assemblied probed by Fourier Transform Infrared and Raman spectroscopies and AFM-IR technique.
