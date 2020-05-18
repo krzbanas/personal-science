@@ -3,7 +3,7 @@
 date = "2020-05-01"
 lastmod = "2020-05-01"
 draft = false
-tags = ["R", "hyperspec", "import", "oPTIR"]
+tags = ["R", "hyperspec", "import", "o-PTIR"]
 title = "Import csv matrix from PTIR Studin"
 summary = """
 
