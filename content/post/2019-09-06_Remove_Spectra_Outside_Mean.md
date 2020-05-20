@@ -3,7 +3,7 @@
 date = "2019-09-06"
 lastmod = "2019-09-06"
 draft = false
-tags = ["R", "hyperspec", "Outlier"]
+tags = ["R", "hyperspec", "outlier"]
 title = "Removing Spectra outside mean ± n sd"
 summary = """
 
