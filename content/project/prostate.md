@@ -13,7 +13,7 @@ image_preview = "CNT.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["CNT", "AFM-IR", "FTIR", "Raman"]
+tags = ["prostate", "SRIXE", "FTIR", "microscopy"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
