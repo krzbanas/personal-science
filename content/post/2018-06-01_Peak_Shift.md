@@ -2,7 +2,7 @@
 date = "2018-06-01"
 lastmod = "2018-06-01"
 draft = false
-tags = ["R", "hyperspec", "Peaks", "Calculations"]
+tags = ["R", "hyperspec", "peaks", "calculations"]
 title = "Function to find spectral peak shift"
 summary = """
 Defining and using function to find spectral peak shift.
