@@ -2,7 +2,7 @@
 date = "2019-06-07"
 lastmod = "2019-06-07"
 draft = false
-tags = ["R", "hyperspec", "Spatial Moments"]
+tags = ["R", "hyperspec", "spatial moments"]
 title = "Interpretation of spatial moments"
 summary = """
 Variance, skewness, kurtosis and others
