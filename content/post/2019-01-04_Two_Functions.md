@@ -3,7 +3,7 @@
 date = "2019-01-04"
 lastmod = "2019-01-04"
 draft = false
-tags = ["R", "Tricks"]
+tags = ["R", "tricks"]
 title = "Two functions with the same name in two different packages"
 summary = """
 How can I access always the function from chron package ?
