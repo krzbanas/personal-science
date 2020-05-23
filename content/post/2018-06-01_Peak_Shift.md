@@ -13,7 +13,7 @@ math = false
 Script below shows how to calculate band shift for hyperspectral object (map). First find.max function is defined, then we set the spectral range for the search of maximum. The output of the function find.max is the position of the maximum (wavenumber) not its amplitude.
 Subsequently we use standard R fuction apply to use find.max function on whole hyperspectral object (spc1). Final steps are for the visualization purpose: converting bandpos into matrix, melting data to long data format (longmat) and ploting this data frame with ggplot2 system.
 In order to have the colour scale with white for mean value of the bandpos matrix as well as red and blue shifts we calculated mean value of 
-longmat$value and define following scale gradient
+longmat$value and define following scale gradient:
 scale_fill_gradient2(midpoint=mid1, low="red", mid="white", high="blue", space ="Lab" )
 
 ```r
