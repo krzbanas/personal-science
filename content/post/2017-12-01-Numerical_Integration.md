@@ -9,7 +9,7 @@ Numerical integration for FTIR spectra in R
 """
 math = false
 +++
-Numerical integration in R by fitting a piece-wise linear function.
+Numerical integration in R by fitting a piece-wise linear function. Example adapted from quoted sources. First piece-wise linear function is fitted by 'approxfun', then integration is done over the 
 
 ```r
 # example based on: http://tolstoy.newcastle.edu.au/R/help/04/10/6138.html
