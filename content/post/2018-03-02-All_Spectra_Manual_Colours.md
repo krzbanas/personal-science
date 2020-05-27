@@ -11,7 +11,8 @@ math = false
 +++
 
 
-Plot all spectra from the hyperSpec object with manually set colours. Palette define by brewer.pal and colorRampPalette functions.
+Plot all spectra from the hyperSpec object with manually set colours. Palette define by `brewer.pal` and `colorRampPalette` functions.
+Manual selection of palette is applied by `scale_color_manual` parameter.
 ```r
 nspectra<-nrow(object01)
 pal01<-colorRampPalette(brewer.pal(nspectra, "Set1")) 
