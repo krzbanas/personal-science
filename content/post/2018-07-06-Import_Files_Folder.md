@@ -9,6 +9,7 @@ Import multiple txt files to single hyperSpec object with timestamps extracted f
 """
 math = false
 +++
+Import multiple text files from one folder by using `read.table` function. Remember about setting proper column separator. In `for` loop spectrum from the first file in the list is write to the first row of spc `matrix`. In this example additional `data.frame` is created from the part of the filenames to add time stamps. Function `strptime` is used to convert characters to time format, function `diff` to calculate the differences between subsequent experimental points  and function `cumsum` to calculated cumulative time elapsed from the beginning of the experiment.
 
 ```r
 # full path to the data files
