@@ -11,7 +11,6 @@ math = false
 +++
 
 
-
 ```r
 #add cluster membership to hyperSpec object
 map01$clusters <- as.factor (cutree (dendrogram, k = 5))
