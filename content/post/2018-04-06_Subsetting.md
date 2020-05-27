@@ -9,7 +9,7 @@ Subsetting hyperspectral object: partial spectral range, spectra selected by ind
 """
 math = false
 +++
-
+Subsetting of hyperspectral object may be done with specifying spectral range or spectra indices, but also with `subset` function. Combining this with `grepl` function allows for selecting groups with particular names.
 
 ```r
 a3
