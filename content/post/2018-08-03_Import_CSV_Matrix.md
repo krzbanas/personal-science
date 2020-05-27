@@ -10,6 +10,7 @@ Import csv matrix with wavenumbers in the first column.
 math = false
 +++
 
+Importing data matrix with wavenumbers (frequencies, energy) in the first column and spectra in the following columns by using `read.csv` function. Extra data are taken from the first row (first k characters are extracted by function `substring`.
 
 
 ```r
