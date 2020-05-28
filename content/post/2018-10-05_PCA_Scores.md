@@ -12,7 +12,7 @@ PCA Scores ploted with ggplot2
 math = false
 +++
 
-
+Calculating principal components of spectra matrix with function `prcomp`. Function `decomposition` is used to re-import results of the analysis to `hyperspec` object. Then first three principal components are visualised as false colour maps (`matlab.palette`) with `qplotmap` function.
 
 ```r
 pca <- prcomp(spc1sa[[]], scale. = TRUE, rank. = 10)
