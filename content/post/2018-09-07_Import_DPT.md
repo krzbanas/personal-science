@@ -9,7 +9,7 @@ Import DPT (data point table) Opus (FTIR Imaging) FPA
 """
 math = true
 +++
-Importing data point table file from Bruker Opus with `read.table` function. x and y coordinates are added with basic `rep` and `seq` functions. In this example pixel size is equal 2.7 microns in each direction. \\( \mu^2\\)
+Importing data point table file from Bruker Opus with `read.table` function. x and y coordinates are added with basic `rep` and `seq` functions. In this example pixel size is equal 2.7 \\( \mu m^2\\).
 
 
 ```r
