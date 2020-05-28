@@ -10,7 +10,7 @@ Using subset command to subset data.frame
 math = false
 +++
 This time subseting data.frame with `subset` fuction. The structure of the data can be checked with `str` function.
-
+First example subsets one processing type (Baseline), second extracts only wavenumbers from the list by using `X %in% lines1` declaration.
 
 ```r
 str(result_long)
