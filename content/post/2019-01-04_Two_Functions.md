@@ -12,14 +12,15 @@ math = false
 +++
 
 We have two functions with the same name in two different packages. For example: 
-do you need to load two R packages : tseries and chron?
-They both have a function named is.weekend
+do you need to load two R packages : `tseries` and `chron`?
+They both have a function named `is.weekend`
 I always have in my environment the function from the second package I loaded.
-How can I access always the function from, let say, chron?
+How can I access always the function from chron package?
 
 You have probably already noticed that the order of loading the packages makes a difference, i.e. the package that gets loaded last will mask the functions in packages loaded earlier.
 
-To specify the package that you want to use, the syntax is:
+To specify the package that you want to use, the syntax is following `package::function.name()`
+Alternatively you can re-name the function from the package loaded first (with `is.weekend.chron <- is.weekend`), then both functions are available (under names `is.weekend.chron` and `is.weekend`).
 
 ```r
 chron::is.weekend()
