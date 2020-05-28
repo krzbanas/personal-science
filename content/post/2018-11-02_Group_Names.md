@@ -10,7 +10,7 @@ Group names extracted from filenames as factors
 math = false
 +++
 
-
+Short fix for proper label on plots for group names extrated from filenames (with `substr` function). It is done with `factor` function that labels the levels of factors.
 
 ```r
 explosive<-substr(files, 1, 4)
