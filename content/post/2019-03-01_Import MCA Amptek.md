@@ -9,7 +9,7 @@ Function to import MCA data to R Environment
 """
 math = false
 +++
-
+How to define user function `getmca` to import multiple spectra from MCA Amptek detector files. List of files is read by `list.files` function. `ldply` from package `plyr` is used to 
 
 
 ```r
