@@ -9,19 +9,16 @@ Function to import MCA data to R Environment
 """
 math = false
 +++
-How to define user function `getmca` to import multiple spectra from MCA Amptek detector files. List of files is read by `list.files` function. `ldply` from package `plyr` is used to 
-
+How to define user function `getmca` to import multiple spectra from MCA Amptek detector files. List of files is read by `list.files` function. `ldply` from package `plyr` is used to `read.table`. Dataset is `split` into subsequent column, some cleaning is done: extracted column name with `substr`, other parameters from MCA file are extracted to separate dataset. Finally matrix with channels in the first column and spectra in the following are exported to file with `write.table`. All this is wrapped into function with one parameter: directory name.
 
 ```r
-setwd("D:/MCA/data" )
-
 getmca <- function(directory ) {
-library(plyr )
+library(plyr)
   file_list <- list.files ()
   dataset <- ldply (file_list, read.table, header=TRUE, sep= "\t")
   l=length (file_list)
   r=rep (file_list, each=2060)
-  d1 = as.data.frame (split( dataset, r))
+  d1 = as.data.frame (split(dataset, r))
   d2 = data.frame (c( 1:2048 ),d1[ 12:2059 ,1 :l])
   d3= as.matrix (d2)
   # some magic
@@ -40,5 +37,4 @@ library(plyr )
   write.table (d3, "D:/MCA/data.txt", col.names=F, row.names=F ) 
   }
   
-
 ```
