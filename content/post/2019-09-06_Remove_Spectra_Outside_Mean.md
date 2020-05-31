@@ -4,13 +4,14 @@ date = "2019-09-06"
 lastmod = "2019-09-06"
 draft = false
 tags = ["R", "hyperspec", "outlier"]
-title = "Removing Spectra outside mean ± n sd"
+title = "Removing Spectra outside mean ± n SD"
 summary = """
 
 """
 math = false
 +++
 
+How to define the fuction to remove spectra outside the mean ± n times SD? Function `mean_sd_filter` first subtracts mean value then sets logical condition for values to be lower than mean plus n times SD or higher than mean minus n times SD. Output of this function is logical matrix. By using `apply` twice one can extract spectra inside the given range.
 
 
 ```r
