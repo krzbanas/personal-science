@@ -11,7 +11,7 @@ summary = """
 math = false
 +++
 
-
+There is a function in `plyr` package called `join_all` that allows for combining mutliple dataframes into one by using particular columns (variables). Function `mutate` from `dplyr` helps to calculatate new variables from existing ones (ratios from intensities
 
 ```r
 library(plyr) #join_all
