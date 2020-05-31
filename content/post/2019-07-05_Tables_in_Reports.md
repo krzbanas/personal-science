@@ -21,19 +21,19 @@ out <- lm(y ~ x)
 library(knitr)
 kable(summary (out)$ coef, digits=2)
 ```
-Another option comes from  pander package http://rapporter.github.io/pander/
+Another option comes from  `pander` package http://rapporter.github.io/pander/
 
 ```{r pander }
 n <- 100
 x <- rnorm(n )
 y <- 2*x + rnorm (n)
 out <- lm(y ~ x)
-library(pander )
-panderOptions("digits" , 2 )
+library(pander)
+panderOptions("digits" , 2)
 pander(out)
 ```
 
-Finally there is package called xtable https://cran.r-project.org/web/packages/xtable/index.html
+Finally there is package called 'xtable' https://cran.r-project.org/web/packages/xtable/index.html and the function `xtable`
 
 ```{r xtable, results ="asis"}
 n <- 100
