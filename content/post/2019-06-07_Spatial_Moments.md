@@ -29,7 +29,7 @@ Spatial moments are a very simple and powerful way to describe the spatial distr
 --> >0 : Distribution MORE PEAKED than normal
 --> <-1.2: BIMODAL (or multimodal) distribution
 
-## Parameters derived from 2nd moments ** (from Awcock (1995) *Applied Image Processing*)
+## Parameters derived from 2nd moments (from *Applied Image Processing* Awcock (1995))
 
 * ELONGATION (ECCENTRICITY) = Ratio of longest to shortest
 distance vectors from the object's centroid to its boundaries
