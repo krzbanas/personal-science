@@ -10,8 +10,8 @@ knitr, pander and xtable
 math = false
 +++
 
-There are a number of packages to display tables in automatically generated reports (html, pdf).
-Native knitr package command is named kable:
+There are a number of packages to correctly display tables in automatically generated reports (html, pdf).
+Native `knitr` package function is named `kable`.
 
 ```{r kable }
 n <- 100
