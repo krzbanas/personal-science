@@ -12,7 +12,7 @@ math = false
 
 Spatial moments are a very simple and powerful way to describe the spatial distribution of values, provided they have a sufficiently strong central tendency, that is, a tendency to cluster around some particular value. This implies that "background" pixel values (e.g. zones where the quantity of interest, such as intensity or concentration, is zero), are small. 
 
-** Interpretation of spatial moments **
+## Interpretation of spatial moments
 
 * order 0 = TOTAL MASS [units: concentration, density, etc.]
 * order 1 = location of CENTRE OF MASS in x and y from 0,0 [units: L]
