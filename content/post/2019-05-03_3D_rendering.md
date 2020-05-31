@@ -9,7 +9,7 @@ summary = """
 """
 math = false
 +++
-
+This time some special effects in R. Perhaps it is not useful for scientific paper but may be perfect for the eye-catching graphics. Converting 2D plot (map in this case) is done with  
 
 
 ```r
