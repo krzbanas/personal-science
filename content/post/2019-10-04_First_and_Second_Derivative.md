@@ -10,7 +10,7 @@ summary = """
 math = false
 +++
 
-One of the methods to numerically calculate first and second derivative is to use Savitzy-Golay filter function. It is available in R in `signal` package
+One of the methods to numerically calculate first and second derivative is to use Savitzy-Golay filter function. It is available in R in `signal` package. Function `sgolayfilt` may be used on all spectra with `apply` function. Order is set by `m` parameter (`m=1` is the first derivative, 
 
 
 ```r
