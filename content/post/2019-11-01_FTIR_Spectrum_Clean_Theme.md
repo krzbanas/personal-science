@@ -9,7 +9,7 @@ summary = """
 """
 math = false
 +++
-Today one trick to get clean theme with `ggplot2` graphics for plotting spectra. We start with `theme_set (theme_bw())` and modify it according to the requirements. Here only the font for  axes labels and axes titles were
+Today one trick to get clean theme with `ggplot2` graphics for plotting spectra. We start with `theme_set (theme_bw())` and modify it according to the requirements. Here only the font for  axes labels and axes titles were increased.
 
 
 ```r
@@ -22,6 +22,8 @@ ggplot (meansRDX02, aes (x = Wavenumber, y = Absorbance, colour = Resolution)) +
 ggplot (meansRDX02, aes (x = Wavenumber, y = Absorbance, colour = Resolution)) + geom_line (size =1) +  facet_grid(Resolution ~ . )+ scale_x_reverse()+ guides(colour =FALSE) + scale_colour_manual (values = c("red" ,"blue" , "green" , "black" , "violet" ))
 ```
 {{< figure library= "true" src="FTIR_Spectrum_01.png" title="FTIR spectrum with ggplot2 - clean theme" >}}
+
+
 
 ```r        
 #manual colour scheme defined by external variable
