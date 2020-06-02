@@ -2,7 +2,7 @@
 date = "2019-11-01"
 lastmod = "2019-11-01"
 draft = false
-tags = ["R", "hyperspec", "ggplot2", "plot"]
+tags = ["R", "hyperspec", "ggplot2", "plot", "colours"]
 title = "Ploting FTIR spectrum with ggplot2 - clean theme"
 summary = """
 
@@ -23,7 +23,7 @@ ggplot (meansRDX02, aes (x = Wavenumber, y = Absorbance, colour = Resolution)) +
 ```
 {{< figure library= "true" src="FTIR_Spectrum_01.png" title="FTIR spectrum with ggplot2 - clean theme" >}}
 
-
+It is possible to manually set the colour scheme for the variable. Here variable `Resolution` values are mapped to various colours when defining `cols5` vector. Then, with plot declaration, `scale_colour_manual (values = cols5)` is added.
 
 ```r        
 #manual colour scheme defined by external variable
