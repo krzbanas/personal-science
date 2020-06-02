@@ -9,13 +9,13 @@ summary = """
 """
 math = false
 +++
-
+Today one trick to get clean theme with `ggplot2` graphics for plotting spectra. We start with `theme_set (theme_bw())` and modify it according to the requirements. Here only the font for  axes labels and axes titles were
 
 
 ```r
 #setting theme
 theme_new <- theme_set (theme_bw())
-theme_new <- theme_update (axis.text = element_text(size = 14 ),axis.title = element_text(size = 20,face = "bold"))
+theme_new <- theme_update (axis.text = element_text(size = 14),axis.title = element_text(size = 20,face = "bold"))
 #faceting on Resolution variable
 ggplot (meansRDX02, aes (x = Wavenumber, y = Absorbance, colour = Resolution)) + geom_line (size =1) +  facet_grid(Resolution ~ . )+ scale_x_reverse()+ guides(colour =FALSE)
 #manual colour scheme
