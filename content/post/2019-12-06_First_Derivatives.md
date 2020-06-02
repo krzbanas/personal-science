@@ -10,7 +10,7 @@ summary = """
 math = false
 +++
 
-Here is code to calculate derivatives of the spectra in a different way by using `diff` function. For this operation you should have equal distances between data points (it may be achieved by function `spc.loess`). Function `t` in this code chunk transpose the results in order to put them back to hyperSpec object. Derivatives calculation with Savitzy-Golay filter function was shown {{< here "/post/my-post" >}}
+Here is code to calculate derivatives of the spectra in a different way by using `diff` function. For this operation you should have equal distances between data points (it may be achieved by function `spc.loess`). Function `t` in this code chunk transpose the results in order to put them back to hyperSpec object. Derivatives calculation with Savitzy-Golay filter function was shown {{< here "/post/2019-10-04_First_and_Second_Derivative.md" >}}.
 
 ```r
 #first derivative
