@@ -6,7 +6,7 @@ draft = false
 tags = ["R", "hyperspec", "export"]
 title = "Export matrix with PC or cluster number to csv"
 summary = """
-
+Data matrix export to txt file
 """
 math = false
 +++
