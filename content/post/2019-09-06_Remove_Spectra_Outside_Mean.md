@@ -6,7 +6,7 @@ draft = false
 tags = ["R", "hyperspec", "outlier"]
 title = "Removing Spectra outside mean ± n SD"
 summary = """
-
+Removing Spectra outside selected range
 """
 math = false
 +++
