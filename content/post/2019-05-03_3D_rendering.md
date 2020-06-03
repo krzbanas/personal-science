@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "3D", "ggplot2"]
 title = "3D rendering of ggplot2"
 summary = """
-
+Converting 2D plots into pseudo-3D and animations
 """
 math = false
 +++
