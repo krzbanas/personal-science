@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "derivatives", "S-G filter"]
 title = "First and Second Derivative"
 summary = """
-
+Calculation of derivatives with Savitzy-Golay filter function
 """
 math = false
 +++
