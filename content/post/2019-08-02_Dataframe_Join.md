@@ -6,7 +6,7 @@ draft = false
 tags = ["R", "dataframe", "join"]
 title = "Join multiple dataframes and calculate ratios"
 summary = """
-
+Combining multiple dataframes into one and calculating new variables
 """
 math = false
 +++
