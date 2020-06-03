@@ -11,7 +11,8 @@ summary = """
 math = false
 +++
 
-
+Sometimes we need to export data matrix with the results of the analysis for further processing or visualization (for example in ImageJ).
+Typically firstly we have to convert object to matrix with `matrix` function. Then we can use `write.table` function. Settings `col.names=F` and  `row.names=F` allows for exporting pure matrix.
 
 ```r
 #PCA
