@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec", "ggplot2", "plot", "colours"]
 title = "Ploting FTIR spectrum with ggplot2 - clean theme"
 summary = """
-
+ggplot2 - setting clean theme for spectra plot
 """
 math = false
 +++
