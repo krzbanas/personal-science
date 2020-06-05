@@ -6,7 +6,7 @@ draft = false
 tags = ["R", "hyperspec", "import", "o-PTIR"]
 title = "Import csv matrix from PTIR Studio"
 summary = """
-
+Method for importing to R csv matrix from mIRage device
 """
 math = false
 +++
