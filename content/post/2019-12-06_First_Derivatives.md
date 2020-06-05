@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "calculations", "derivatives"]
 title = "Derivatives Calculation with diff function"
 summary = """
-
+Calculating derivatives with function diff
 """
 math = false
 +++
