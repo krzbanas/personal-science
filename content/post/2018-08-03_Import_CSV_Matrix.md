@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperspec", "Import", "csv"]
 title = "Import spectra from text matrix"
 summary = """
-Import csv matrix with wavenumbers in the first column.
+Import csv matrix with wavenumbers in the first column
 """
 math = false
 +++
