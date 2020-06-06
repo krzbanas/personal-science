@@ -6,7 +6,7 @@ draft = false
 tags = ["R", "tricks"]
 title = "Two functions with the same name in two different packages"
 summary = """
-How can I access always the function from chron package ?
+How can I access always the function from chron package?
 """
 math = false
 +++
