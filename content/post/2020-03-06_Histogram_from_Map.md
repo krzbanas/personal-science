@@ -17,13 +17,14 @@ peak01<-2920
 inten01n<-apply(spc1sa_bc_norm[,,peak01-5~peak01+5], 1, max)
 ratio2920<-as.data.frame(inten01n$spc)
  colnames(ratio2920)<-"ratio"
+ 
  denmax6<-density(ratio2920$ratio)$x[which.max(density(ratio2920$ratio)$y)]
  medianhist6=median(ratio2920$ratio) 
  IQR6=IQR(ratio2920$ratio) 
  low6<-medianhist6-IQR6/2 low6
  high6<-medianhist6+IQR6/2 high6
 
-  hist6a<-ggplot(ratio2920, aes(x=ratio)) + geom_histogram(binwidth = function(x) 2 * IQR(x) / (length(x)^(1/3))) +
+hist6a<-ggplot(ratio2920, aes(x=ratio)) + geom_histogram(binwidth = function(x) 2 * IQR(x) / (length(x)^(1/3))) +
    geom_vline(xintercept=median(ratio2920$ratio), lwd=1, linetype=2, color="red")+
    geom_vline(xintercept=medianhist6-IQR6/2, lwd=1, linetype=2, color="grey")+
    geom_vline(xintercept=medianhist6+IQR6/2, lwd=1, linetype=2, color="grey")+
