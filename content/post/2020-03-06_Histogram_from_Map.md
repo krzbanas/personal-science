@@ -9,7 +9,7 @@ Calculating and ploting the histogram of the pixel values extracted from the map
 """
 math = false
 +++
-
+This code chunk shows how to plot histogram in `ggplot2` 
 
 
 ```r
