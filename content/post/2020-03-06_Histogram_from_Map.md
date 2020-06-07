@@ -9,7 +9,7 @@ Calculating and ploting the histogram of the pixel values extracted from the map
 """
 math = false
 +++
-This code chunk shows how to plot histogram in `ggplot2` 
+This code chunk shows how to plot histogram in `ggplot2` and calculate some parameters related with it. First the position of the maximum of density function by command `density(ratio2920$ratio)$x[which.max(density(ratio2920$ratio)$y)]` then the median value for the histogram `median(ratio2920$ratio)` and the values of Inter Quartil Range 
 
 
 ```r
