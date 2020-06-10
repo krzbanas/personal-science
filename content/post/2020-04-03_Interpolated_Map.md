@@ -10,6 +10,7 @@ summary = """Integral Map with Annotations
 math = false
 +++
 
+Integral map prepared from mIRage exported csv. First the dataset is imported by `read.csv`. In the early version of PTIR Studio there was a bug causing map beign flipped in Y direction. 
 
 
 ```r
