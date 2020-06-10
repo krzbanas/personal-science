@@ -10,7 +10,8 @@ summary = """Integral Map with Annotations
 math = false
 +++
 
-Integral map prepared from mIRage exported csv. First the dataset is imported by `read.csv`. In the early version of PTIR Studio there was a bug causing map beign flipped in Y direction. Depending on the software version please use function with or without `sort`. Band of interest is set as `peak1` variable. Default integration range is 40 cm<sup>-1</sup> but it may be adjusted. Display interpolation is done with `geom_raster` and `interpolate` parameter set as `TRUE`.
+Integral map prepared from mIRage exported csv. First the dataset is imported by `read.csv`. In the early version of PTIR Studio there was a bug causing map beign flipped in Y direction. Depending on the software version please use function with or without `sort`. Band of interest is set as `peak1` variable. Default integration range is 40 cm<sup>-1</sup> but it may be adjusted. Display interpolation is done with `geom_raster` and `interpolate` parameter set as `TRUE`. Additional layer of labels is done with `annotate("text")` command. Positions x and y as well as label text is set manually in this example.
+
 ```r
 library(hyperSpec)
 library(here)
