@@ -33,6 +33,7 @@ colnames(addata)<-c("x","y")
 addata1<-round(addata,digits=2)
 hypspec1<-new("hyperSpec", wavelength = wavenumber,
               spc = spectra, data=addata1)
+
 theme_new <- theme_set(theme_bw())
 theme_new <- theme_update(axis.text = element_text(size = 14),
                           axis.title = element_text(size = 20,face = "bold"))
