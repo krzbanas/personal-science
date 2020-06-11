@@ -11,7 +11,7 @@ Method for importing to R csv matrix from mIRage device
 math = false
 +++
 
-Import csv matrix with wavenumbers in the first column and spectra in the subsequent columns (export from PTIR Studio).
+Import csv matrix with wavenumbers in the first column and spectra in the subsequent columns (export from PTIR Studio). Matrix is read by `read.csv` function. Coordinates are rounded to 2 decimal places by function `round`.
 
 ```r
 f="iNor_BA1_hyper_20191209.csv"
