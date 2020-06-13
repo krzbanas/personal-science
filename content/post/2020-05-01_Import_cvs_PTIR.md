@@ -21,11 +21,13 @@ wavenumbers  <- read.csv(path01, header = FALSE, nrow = 1)
 wavenumber<-as.vector(t(wavenumbers[3:length(wavenumbers)]))
 spectra<-as.matrix(dataset01[,-c(1:2)])
 d1<-as.data.frame(dataset01[,1])
+
 #there is a bug in the export to csv in PTIR Studio 4.1
 #causing map being flipped in Y direction
 #line below there is a fix for this
 #if this is corrected sort should be replaced by non sorted
 #d2<-as.data.frame(sort(dataset01[,2]))
+
 d2<-as.data.frame(dataset01[,2])
 addata<-cbind(d1,d2)
 colnames(addata)<-c("x","y")
