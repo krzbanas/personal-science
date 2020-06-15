@@ -6,7 +6,7 @@ date = "2016-04-04"
 title = "Chemical Heterogenity of Carbon Nanotubes assemblies"
 
 # Project summary to display on homepage.
-summary = "CNT AFM-IR"
+summary = "Chemical Heterogenity of Carbon Nanotubes assemblies"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "CNT.png"
