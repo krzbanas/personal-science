@@ -13,7 +13,7 @@ image_preview = "RBC.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["RBC", "AFM-IR", "FTIR", "malaria", "O-PTIR", "blood", "erytrocytes"]
+tags = ["RBC", "AFM-IR", "FTIR", "malaria", "O-PTIR", "blood", "erythrocytes"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -22,8 +22,8 @@ external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/CNT01.png"
-caption = "AFM-IR composite image of carbon nano tubes assemblies"
+# [header]
+# image = "headers/CNT01.png"
+# caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
