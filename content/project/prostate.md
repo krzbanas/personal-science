@@ -22,8 +22,8 @@ external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/CNT01.png"
-caption = "AFM-IR composite image of carbon nano tubes assemblies"
+# [header]
+# image = "headers/CNT01.png"
+# caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
