@@ -3,13 +3,13 @@
 date = "2004-01-03"
 
 # Project title.
-title = "Prostate elemental analysis"
+title = "Prostate tissue: elemental analysis"
 
 # Project summary to display on homepage.
 summary = "Prostate SRIXE"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "CNT.png"
+# image_preview = "CNT.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
