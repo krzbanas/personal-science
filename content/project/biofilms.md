@@ -9,7 +9,7 @@ title = "Biofilms"
 summary = "Biofilms FTIR confocal"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "CNT.png"
+# image_preview = "CNT.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -27,3 +27,4 @@ math = false
 # caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
+Biofilms
