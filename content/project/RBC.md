@@ -27,3 +27,5 @@ math = false
 # caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
+
+Malaria infected RBC characterised by infrared spectroscopy
