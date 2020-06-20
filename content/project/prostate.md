@@ -22,6 +22,7 @@ math = false
  [header]
  image = "projects/XRF_prostate.png"
  caption = "XRF"
+ preview = true  # Show a thumbnail in listings?
 
 +++
 Prostate tissue: elemental analysis
