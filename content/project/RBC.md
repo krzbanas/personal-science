@@ -8,9 +8,6 @@ title = "Red Blood Cells - Malaria"
 # Project summary to display on homepage.
 summary = "RBC Malaria FTIR oPTIR AFM-IR"
 
-# Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "RBC.png"
-preview = TRUE
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["RBC", "AFM-IR", "FTIR", "malaria", "O-PTIR", "blood", "erythrocytes"]
@@ -22,12 +19,9 @@ external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "headers/CNT01.png"
-# caption = "AFM-IR composite image of carbon nano tubes assemblies"
 [header]
-image = "headers/getting-started.png"
-caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+image = "RBC.png"
+caption = "RBC flow"
 preview = true  # Show a thumbnail in listings?
 +++
 
