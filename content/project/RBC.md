@@ -25,7 +25,10 @@ math = false
 # [header]
 # image = "headers/CNT01.png"
 # caption = "AFM-IR composite image of carbon nano tubes assemblies"
-
+[header]
+image = "headers/getting-started.png"
+caption = "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+preview = true  # Show a thumbnail in listings?
 +++
 
 Malaria infected RBC characterised by infrared spectroscopy
