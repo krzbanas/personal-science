@@ -10,7 +10,7 @@ summary = "Prostate SRIXE"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
  image_preview = "projects/XRF_prostate.png"
-
+ preview = TRUE 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["prostate", "SRIXE", "FTIR", "microscopy"]
@@ -27,3 +27,4 @@ math = false
 # caption = "AFM-IR composite image of carbon nano tubes assemblies"
 
 +++
+Prostate tissue: elemental analysis
