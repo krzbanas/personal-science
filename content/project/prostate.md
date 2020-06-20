@@ -8,9 +8,6 @@ title = "Prostate tissue: elemental analysis"
 # Project summary to display on homepage.
 summary = "Prostate SRIXE"
 
-# Optional image to display on homepage (relative to `static/img/` folder).
- image_preview = "projects/XRF_prostate.png"
- preview = TRUE 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["prostate", "SRIXE", "FTIR", "microscopy"]
@@ -22,9 +19,9 @@ external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-# [header]
-# image = "headers/CNT01.png"
-# caption = "AFM-IR composite image of carbon nano tubes assemblies"
+ [header]
+ image = "projects/XRF_prostate.png"
+ caption = "XRF"
 
 +++
 Prostate tissue: elemental analysis
