@@ -10,7 +10,7 @@ summary = "RBC Malaria FTIR oPTIR AFM-IR"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "RBC.png"
-
+preview = TRUE
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["RBC", "AFM-IR", "FTIR", "malaria", "O-PTIR", "blood", "erythrocytes"]
