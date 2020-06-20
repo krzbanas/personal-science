@@ -25,7 +25,7 @@ math = false
 # [header]
 # image = "headers/CNT01.png"
 # caption = "AFM-IR composite image of carbon nano tubes assemblies"
++++
 
 
 NMR cellulose
-+++
