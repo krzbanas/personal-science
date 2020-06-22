@@ -1,6 +1,6 @@
 +++
 title = "Detection of high explosive materials within fingerprints by means of optical-photothermal infrared spectromicroscopy"
-date = "2020-06-022"
+date = "2020-06-22"
 authors = ["A Banas", "K Banas", "J Loke", "S K Lim", "M B H Breese"]
 publication_types = ["2"]
 publication = "Analytical Chemistry, 92, 7, pp. 4788-4797"
