@@ -26,3 +26,5 @@ preview = true  # Show a thumbnail in listings?
 +++
 
 Malaria infected RBC characterised by infrared spectroscopy
+
+{{< figure library= "true" src="Interpolated.png" title="Interpolated Map with Annotations" >}}
