@@ -19,24 +19,30 @@ library("tm")
 library("SnowballC")
 library("wordcloud")
 library("RColorBrewer")
+
 # Read the text files
 filePath1 <- "a_titles.txt"
 filePath2 <- "n_titles.txt"
 textA <- readLines(filePath1)
 textN <- readLines(filePath2)
+
 # Load the data as a corpus
 docsA <- Corpus(VectorSource(textA))
 docsN <- Corpus(VectorSource(textN))
+
 # Convert the text to lower case
 docsA <- tm_map(docsA, content_transformer(tolower))
 docsN <- tm_map(docsN, content_transformer(tolower))
+
 # Remove numbers
 docsA <- tm_map(docsA, removeNumbers)
 docsN <- tm_map(docsN, removeNumbers)
+
 # Remove english common stopwords
 docsN <- tm_map(docsN, removeWords, stopwords("english"))
 docsA <- tm_map(docsA, removeWords, stopwords("english"))
-# specify your stopwords as a character vector
+
+# specify and remove your stopwords as a character vector
 docsA <- tm_map(docsA, removeWords, c("using", "analysis", "characterization", "type")) 
 docsN <- tm_map(docsN, removeWords, c("using", "analysis", "characterization", "type")) 
 dtm1 <- TermDocumentMatrix(docsA)
@@ -49,6 +55,7 @@ m2 <- as.matrix(dtm2)
 v2 <- sort(rowSums(m2),decreasing=TRUE)
 d2 <- data.frame(word = names(v2),freq=v2)
 
+#  ploting
 wordcloud(words = d1$word, freq = d1$freq, min.freq = 1,
           max.words=30, random.order=FALSE, rot.per=0.1, 
           colors=brewer.pal(8, "Dark2"))
