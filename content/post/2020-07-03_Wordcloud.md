@@ -55,7 +55,7 @@ m2 <- as.matrix(dtm2)
 v2 <- sort(rowSums(m2),decreasing=TRUE)
 d2 <- data.frame(word = names(v2),freq=v2)
 
-#  ploting
+#  ploting 
 wordcloud(words = d1$word, freq = d1$freq, min.freq = 1,
           max.words=30, random.order=FALSE, rot.per=0.1, 
           colors=brewer.pal(8, "Dark2"))
@@ -64,5 +64,6 @@ wordcloud(words = d2$word, freq = d2$freq, min.freq = 1,
           max.words=30, random.order=FALSE, rot.per=0.1, 
           colors=brewer.pal(8, "Dark2"))
 ```
+
 {{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
 {{< figure library= "true" src="cloud2.png" title="Word Cloud: Company B" >}}
