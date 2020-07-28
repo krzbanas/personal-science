@@ -66,9 +66,11 @@ date_format = "Jan 2006"
   location = "Germany"
   date_start = "2002-07-01"
   date_end = "2004-06-30"
-  description = """Pulse Field NMR Experiments for Diffusion Estimation in Zeolites"""  [[experience]]
-  title = "Post Doc"
-  company = "University Leipizg"
+  description = """Pulse Field NMR Experiments for Diffusion Estimation in Zeolites""" 
+  
+  [[experience]]
+  title = "PhD"
+  company = "Jagiellonian University"
   company_url = "https://www.uni-leipzig.de/en/"
   location = "Germany"
   date_start = "2002-07-01"
@@ -76,8 +78,8 @@ date_format = "Jan 2006"
   description = """Pulse Field NMR Experiments for Diffusion Estimation in Zeolites"""
   
   [[experience]]
-  title = "Post Doc"
-  company = "University Leipizg"
+  title = "MSc"
+  company = "Jagiellonian University"
   company_url = "https://www.uni-leipzig.de/en/"
   location = "Germany"
   date_start = "2002-07-01"
