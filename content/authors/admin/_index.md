@@ -32,6 +32,9 @@ interests:
 
 education:
   courses:
+  - course: PhD with habilitation in Physics
+    institution: Institute of Nuclear Physics Polish Academy of Sciences, Krakow, Poland
+    year: 2020 
   - course: PhD in Physics
     institution: Jagiellonian University, Krakow, Poland
     year: 2004
