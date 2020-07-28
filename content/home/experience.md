@@ -69,18 +69,18 @@ date_format = "Jan 2006"
   description = """Pulse Field NMR Experiments for Diffusion Estimation in Zeolites""" 
   
   [[experience]]
-  title = "PhD"
+  title = "Ph.D in Physics"
   company = "Jagiellonian University"
-  company_url = "https://www.uni-leipzig.de/en/"
+  company_url = "https://fais.uj.edu.pl/en_GB/the-institute-of-physics"
   location = "Poland"
-  date_start = "2002-07-01"
-  date_end = "2004-06-30"
+  date_start = "1997-10-01"
+  date_end = "2002-06-30"
   description = """Pulse Field NMR Experiments for Diffusion Estimation in Zeolites"""
   
   [[experience]]
   title = "M.Sc in Physics (with Distinctions)"
   company = "Jagiellonian University"
-  company_url = "https://www.uni-leipzig.de/en/"
+  company_url = "https://fais.uj.edu.pl/en_GB/the-institute-of-physics"
   location = "Poland"
   date_start = "1991-10-01"
   date_end = "1996-06-05"
