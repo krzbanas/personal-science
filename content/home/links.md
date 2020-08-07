@@ -1,7 +1,6 @@
 +++
-
-
 title = "Links"
++++
 
 # Companies
 - link1
@@ -16,5 +15,3 @@ title = "Links"
 # Photography
 - link 5
 - link 6
- 
-+++
