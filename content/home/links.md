@@ -2,16 +2,17 @@
 title = "Links"
 +++
 
-# Companies
-- link1
-# Infrared Spectroscopy
+## Companies
+- [Bruker Nano](https://www.bruker.com/products/surface-and-dimensional-analysis/nanoscale-infrared-spectrometers/anasys-nanoir3/overview.html)
+- [Photothermal Corp] (https://www.photothermal.com/)
+## Infrared Spectroscopy
 
-## Classic FTIR
+### Classic FTIR
 - link 2
-## New Techniques
+### New Techniques
 - link 3
 - link 4
 
-# Photography
+## Photography
 - link 5
 - link 6
