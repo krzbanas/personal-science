@@ -3,7 +3,7 @@ title = "Links"
 +++
 
 ## Companies
-- 
+- [Bruker Infrared](https://www.bruker.com/products/infrared-near-infrared-and-raman-spectroscopy.html)
 - [Bruker Nano](https://www.bruker.com/products/surface-and-dimensional-analysis/nanoscale-infrared-spectrometers/anasys-nanoir3/overview.html)
 - [NeaSpec](http://www.neaspec.com/)
 - [Photothermal Spectroscopy Corp](https://www.photothermal.com/)
