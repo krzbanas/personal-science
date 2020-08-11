@@ -7,6 +7,8 @@ title = "Links"
 - [Bruker Nano](https://www.bruker.com/products/surface-and-dimensional-analysis/nanoscale-infrared-spectrometers/anasys-nanoir3/overview.html)
 - [NeaSpec](http://www.neaspec.com/)
 - [Photothermal Spectroscopy Corp](https://www.photothermal.com/)
+- [Pike Technologies](https://www.piketech.com/)
+
 ## Infrared Spectroscopy
 
 ### Classic FTIR
