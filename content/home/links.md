@@ -8,6 +8,7 @@ title = "Links"
 - [NeaSpec](http://www.neaspec.com/)
 - [Photothermal Spectroscopy Corp](https://www.photothermal.com/)
 - [Pike Technologies](https://www.piketech.com/)
+- [BUCK Scientific)(https://www.bucksci.com/pages/ir-ftir-accessories-page/)
 
 ## Infrared Spectroscopy
 
