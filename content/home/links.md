@@ -12,6 +12,8 @@ title = "Links"
 
 ## Infrared Spectroscopy
 
+### IR Materials
+- [Edmund Optics](https://www.edmundoptics.com.sg/knowledge-center/application-notes/optics/the-correct-material-for-infrared-applications/)
 ### Classic FTIR
 - link 2
 ### New Techniques
