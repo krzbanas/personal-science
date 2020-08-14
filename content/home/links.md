@@ -14,6 +14,8 @@ title = "Links"
 
 ### IR Materials
 - [Edmund Optics](https://www.edmundoptics.com.sg/knowledge-center/application-notes/optics/the-correct-material-for-infrared-applications/)
+- [Photonics](https://www.photonics.com/Articles/Common_Infrared_Optical_Materials_and_Coatings_A/a25495)
+
 ### Classic FTIR
 - link 2
 ### New Techniques
