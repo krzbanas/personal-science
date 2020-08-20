@@ -18,6 +18,7 @@ title = "Links"
 
 ### Classic FTIR
 - [Short Introduction from Thermofisher Scientific](https://www.thermofisher.com/sg/en/home/industrial/spectroscopy-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-learning-center/molecular-spectroscopy-information/ftir-information/ftir-basics.html)
+- [An education video on Fourier Transform Infrared Spectrometry from the Royal Society of Chemistry](https://youtu.be/DDTIJgIh86E)
 ### New Techniques
 - link 3
 - link 4
