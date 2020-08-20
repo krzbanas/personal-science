@@ -17,7 +17,7 @@ title = "Links"
 - [Photonics](https://www.photonics.com/Articles/Common_Infrared_Optical_Materials_and_Coatings_A/a25495)
 
 ### Classic FTIR
-- link 2
+- [Short Introduction from Thermofisher Scientific] (https://www.thermofisher.com/sg/en/home/industrial/spectroscopy-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-learning-center/molecular-spectroscopy-information/ftir-information/ftir-basics.html)
 ### New Techniques
 - link 3
 - link 4
