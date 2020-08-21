@@ -19,6 +19,7 @@ title = "Links"
 ### Classic FTIR
 - [Short Introduction from Thermofisher Scientific](https://www.thermofisher.com/sg/en/home/industrial/spectroscopy-elemental-isotope-analysis/spectroscopy-elemental-isotope-analysis-learning-center/molecular-spectroscopy-information/ftir-information/ftir-basics.html)
 - [An education video on Fourier Transform Infrared Spectrometry from the Royal Society of Chemistry](https://youtu.be/DDTIJgIh86E)
+- [Introduction to Infrared Spectroscopy](https://youtu.be/0S_bt3JI150)
 - [Infrared Spectroscopy: A Quick Primer On Interpreting Spectra](https://www.masterorganicchemistry.com/2016/11/23/quick_analysis_of_ir_spectra/)
 ### New Techniques
 - link 3
