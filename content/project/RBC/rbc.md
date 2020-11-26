@@ -3,7 +3,7 @@
 date = "2020-11-26"
 
 # Project title.
-title = "Red Blood Cells - Malaria"
+title = "Red Blood Cells - Malaria - New"
 
 # Project summary to display on homepage.
 summary = "RBC Malaria FTIR oPTIR AFM-IR"
