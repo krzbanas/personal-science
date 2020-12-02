@@ -9,6 +9,17 @@ summary = """
 Wordcloud plot to compare two text files.
 """
 math = false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your project's folder. 
+[image]
+  # Caption (optional)
+  caption = "Photo by me"
+  
+  # Focal point (optional)
+  # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
+  focal_point = "Smart"
+
 +++
 
 Here is the example of using `worldcloud` package to visualise the frequency of the words in a piece of text file. In the example we compare the titles of the articles published in scientific journals presented by two companies. First we load data by `readLines` function, then convert it to corpus format by the command `Corpus(VectorSource(textA)`. Next part includes data cleaning: removing numbers, removing typical English stopwords and removing dataset specific words. Then the frequency of the entries are calculated with `TermDocumentMatrix` function. `wordcloud` function is used to visualise the results.  
