@@ -13,7 +13,7 @@ math = false
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Photo by me"
+  caption = "Beam Current Data Points with Exponential Decay: Non-linear Fit"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -54,5 +54,3 @@ with(BC1, plot(BC~time))
 with(BC1, lines(time, a*exp(-k*time)+b, col="red", lwd =2))
 ```
 
-
-{{< figure library= "true" src="BC_time_constant.png" title="Beam Current Data Points with Exponential Decay Non-linear Fit" >}}
