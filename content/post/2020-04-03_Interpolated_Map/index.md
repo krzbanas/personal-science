@@ -12,7 +12,7 @@ math = false
 # To use, add an image named `featured.jpg/png` to your project's folder. 
 [image]
   # Caption (optional)
-  caption = "Photo by me"
+  caption = "Interpolated Map with Annotations"
   
   # Focal point (optional)
   # Options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
@@ -62,6 +62,3 @@ annotate("text", x = c(19466.5, 19467.5,19468.5, 19467.5, 19467.5),
          y = c(7767,7767,7767,7768,7766),
          label = c("l", "c", "r", "t", "b"), colour = "black", size=12)
 ```
-
-
-{{< figure library= "true" src="Interpolated.png" title="Interpolated Map with Annotations" >}}
