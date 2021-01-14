@@ -17,12 +17,13 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
 [[experience]]
-  title = "Senior Research Fellow"
+  title = "Principal Research Fellow"
   company = "Singapore Synchrotron Light Source"
   company_url = "http://ssls.nus.edu.sg/"
   location = "Singapore"
-  date_start = "2016-01-01"
+  date_start = "2021-01-01"
   date_end = ""
   description = """
   Responsibilities include:
@@ -31,6 +32,17 @@ date_format = "Jan 2006"
   * Data Analysis
   * Publishing Results
   """
+
+
+
+[[experience]]
+  title = "Senior Research Fellow"
+  company = "Singapore Synchrotron Light Source"
+  company_url = "http://ssls.nus.edu.sg/"
+  location = "Singapore"
+  date_start = "2016-01-01"
+  date_end = "2020-12-31"
+  description = """Experiments anddata analysis at PCIT and ISMI Beamlines"""
 
 [[experience]]
   title = "Research Scientist"
