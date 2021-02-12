@@ -36,5 +36,3 @@ qplotmap (scores[,,2]) + scale_fill_gradientn (colours = matlab.palette ())
 #PC3
 qplotmap (scores[,,3]) + scale_fill_gradientn (colours = matlab.palette ())
 ```
-
-{{< figure library= "true" src="PCA_Score.png" title="First Principal Component" >}}
