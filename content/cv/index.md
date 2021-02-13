@@ -13,4 +13,5 @@ title: 'CV'
 subtitle:
 ---
 
-My CV is available in [HTML](cv/) or [PDF](cv/cv_short.pdf) form. (Last updated: 13 February 2021)
+My CV is available in [HTML](cv/) or [PDF](content/cv/cv_KB_2020_01_29.pdf) form. (Last updated: 13 February 2021)
+
