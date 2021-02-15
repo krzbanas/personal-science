@@ -14,7 +14,7 @@ header:
   image: ""
 ---
 
-Add your *content* here...
 
-My CV is available in [HTML](cv/) or [PDF](cv_KB_2020_01_29.pdf) form. (Last updated: 13 February 2021)
+
+You can download my CV from here [PDF] (CV_all_IF_papers.pdf) form. (Last updated: 13 February 2021)
 
