@@ -16,5 +16,5 @@ header:
 
 
 
-You can download my CV from here [PDF] (CV_all_IF_papers.pdf) form. (Last updated: 13 February 2021)
+You can download my CV from here [PDF] (cv/CV_all_IF_papers.pdf) form. (Last updated: 13 February 2021)
 
