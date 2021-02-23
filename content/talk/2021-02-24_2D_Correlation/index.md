@@ -21,7 +21,7 @@ projects = ["2D Correlation"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "20210224_SSLS_Seminar.pdf"
+url_slides = "content/talk/2021-02-24_2D_Correlation/20210224_SSLS_Seminar_.pdf"
 url_video = ""
 url_code = ""
 
