@@ -2,7 +2,7 @@
 date = 2021-02-24T11:00:00 
 publishDate = 2021-02-23 # Schedule page publish date.
 
-title = "Honey and Wine"
+title = "Honey and Wine: 2D correlation spectroscopy"
 time_start = 2021-02-24T11:00:00
 time_end = 2021-02-24T11:40:00
 abstract = "Abstract"
