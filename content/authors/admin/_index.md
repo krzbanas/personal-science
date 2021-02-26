@@ -29,6 +29,7 @@ interests:
 - Data Visualisation
 - X-ray Flourescence Spectroscopy
 - Tomography and Imaging
+- 2D correlation spectroscopy
 
 education:
   courses:
