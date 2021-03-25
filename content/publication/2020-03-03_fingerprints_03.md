@@ -11,7 +11,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = ""
+url_pdf = "https://doi.org/10.1021/acs.analchem.9b03676"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -19,7 +19,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://doi.org/10.1021/acs.analchem.9b03676"
+url_source = ""
 math = true
 highlight = true
 [header]
