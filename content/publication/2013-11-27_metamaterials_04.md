@@ -4,7 +4,7 @@ date = "2013-11-27"
 authors = ["J Wu", "H O Moser", "S Xu", "L Jian", "A Banas", "K Banas", "H Chen", "A A Bettiol", "M B H Breese"]
 publication_types = ["2"]
 publication = "Scientific Reports, (3), pp. 3531"
-publication_short = "Scientific Reports"
+publication_short = "Scientific Reports, **IF=3.988(2019)**"
 abstract = "In this paper, we present the first experimental demonstration of double- and triple-band negative refraction index meta-foils in the terahertz (THz) region. Multi-band meta-foils constructed by multi-cell S-string resonators in a single structure exhibit simultaneously negative permittivity and negative permeability responses at multiple frequencies. The phenomena are confirmed by numerical simulations and Fourier transform infrared spectroscopy measurements. The flexible, freestanding multi-band meta-foils provide a promising candidate for the development of multi-frequency THz materials and devices."
 abstract_short = ""
 image_preview = ""
