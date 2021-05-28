@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   location = "Singapore"
   date_start = "2016-01-01"
   date_end = "2020-12-31"
-  description = """Experiments anddata analysis at PCIT and ISMI Beamlines"""
+  description = """Experiments and data analysis at PCIT and ISMI Beamlines"""
 
 [[experience]]
   title = "Research Scientist"
