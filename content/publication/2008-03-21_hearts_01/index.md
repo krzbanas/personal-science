@@ -1,7 +1,7 @@
 +++
 title = "Distribution of selected elements in atherosclerotic plaques of apoE/LDLR-double knockout mice assessed by synchrotron radiation-induced micro-XRF spectrometry"
 date = "2008-03-21"
-authors = ["M Gajda", "K Banas", "A M Banas", "J Jawien", "L Mateuszuk", "S Chlopicki", "W M Kwiatek", "T Cichocki", "G Falkenberg", "J Jawien"]
+authors = ["M Gajda", "K Banas", "A M Banas", "J Jawien", "L Mateuszuk", "S Chlopicki", "W M Kwiatek", "T Cichocki", "G Falkenberg"]
 publication_types = ["2"]
 publication = "X-Ray Spectrometry, (37), 5, pp. 495--502"
 publication_short = "X-Ray Spectrometry"
