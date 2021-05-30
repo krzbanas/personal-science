@@ -4,7 +4,7 @@ date = "2006-03-01"
 authors = ["W M Kwiatek", "A Banas", "K Banas", "A Kisiel", "G Cinque", "G Falkenberg"]
 publication_types = ["2"]
 publication = "Acta Physica Polonica A, (109), 3, pp. 383-387"
-publication_short = "Acta Physica Polonica A, **IF=0.394(2005)**"
+publication_short = "Acta Physica Polonica A"
 abstract = "Sulphur is vital for almost all living organisms by participating in a wide variety of metabolic processes. Nevertheless its biochemistry is only partially understood, due to it a few tools such as X-ray absorption near edge structure may be used to determine its chemical speciation in biological system. In this paper we focused on analysis of composition and elemental distribution in tissue structures of biological samples. We examined cancerous and non-cancerous prostate tissues. Experiments were carried out on the L-beam line at the HASYLAB, DESY (Hamburg, Germany) and DAFNE-Light Facility at the Laboratori Nationali di Frascati (Frascati, Italy). Synchrotron radiation induced X-ray emission measurements reveal the significant differences in concentration of sulphur between cancerous and non-cancerous tissues. X-ray absorption near edge structure spectra show two main types of sulphur that are represented by X-ray peaks at 2476 eV and 2484 eV. This suggests that different sulphur components are present in the measured samples."
 abstract_short = ""
 image_preview = ""
