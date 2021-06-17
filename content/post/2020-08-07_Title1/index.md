@@ -1,12 +1,12 @@
 
 +++
-date = "2020-07-03"
-lastmod = "2020-07-03"
+date = "2020-08-07"
+lastmod = "2020-08-07"
 draft = false
-tags = ["R", "wordcloud", "AFM-IR", "s-SNOM"]
-title = "Visualise the word frequency with wordcloud plot"
+tags = ["R"]
+title = "Title"
 summary = """
-Wordcloud plot to compare two text files.
+Summary
 """
 math = false
 
