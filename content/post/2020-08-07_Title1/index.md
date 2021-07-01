@@ -24,7 +24,17 @@ math = false
 
 There is a number of packages available in R that may be used for calculating principal components. Generally, there are two methods for classical PCA:
 Different packages are using these two functions but with different default settings for data pre-processing (namely: centering and scalling).
-One can also use simply `pr.comp` and `prin.com` functions. Following table shows most popular R packages used for this purpose
+One can also use simply `prcomp` and `princomp` functions. Following table shows most popular R packages used for this purpose
+
+`stats` ( princomp, prcomp)
+`FactoMineR` (PCA)
+`ade4` (dudi.pca)
+`amap` (acp)
+
+Testing the appearance:
+single tick `FactoMineR` and some more text
+triple tick ```FactoMineR ``` and some more text
+triple tick with r letter ```r FactoMineR ``` and some more text
 
 ```r
 
