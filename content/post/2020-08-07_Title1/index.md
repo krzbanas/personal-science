@@ -32,9 +32,10 @@ One can also use simply `prcomp` and `princomp` functions. Following table shows
 `amap` (acp)
 
 Testing the appearance:
-single tick `FactoMineR` and some more text
-triple tick ```FactoMineR ``` and some more text
-triple tick with r letter ```r FactoMineR ``` and some more text
+
+ 1.  single tick `FactoMineR` and some more text
+ 2.  triple tick ```FactoMineR ``` and some more text
+ 3.  triple tick with r letter ```r FactoMineR ``` and some more text
 
 ```r
 
