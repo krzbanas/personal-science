@@ -3,8 +3,8 @@
 date = "2020-08-07"
 lastmod = "2020-08-07"
 draft = false
-tags = ["R"]
-title = "Title"
+tags = ["R", "PCA"]
+title = "Functions and default settings for PCA in R"
 summary = """
 Summary
 """
@@ -22,7 +22,9 @@ math = false
 
 +++
 
-Some text `worldcloud` and other.
+There is a number of packages available in R that may be used for calculating principal components. Generally, there are two methods for classical PCA:
+Different packages are using these two functions but with different default settings for data pre-processing (namely: centering and scalling).
+One can also use simply `pr.comp` and `prin.com` functions. Following table shows most popular R packages used for this purpose
 
 ```r
 
