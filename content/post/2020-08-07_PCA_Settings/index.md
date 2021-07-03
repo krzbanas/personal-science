@@ -35,6 +35,7 @@ One can also use simply `prcomp` and `princomp` functions. Following table shows
  - `MASS`
  - `ExPosition`
 
+Default settings for center and scale are presented in the next table.
 ```r
 
 code fragment
