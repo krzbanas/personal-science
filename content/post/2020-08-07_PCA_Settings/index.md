@@ -37,12 +37,14 @@ One can also use simply `prcomp` and `princomp` functions. Following table shows
 
 Default settings for center and scale are presented in the next table.
 
-
-| Function 	| Center 	| Scale 	| Remarks   	|
-|----------	|--------	|-------	|-----------	|
-| princom  	| FALSE  	| FALSE 	| using SVD 	|
-| prcom    	| TRUE   	| FALSE 	|           	|
-|          	|        	|       	|           	|
+| Function 	| Center 	| Scale 	| Remarks                    	|
+|----------	|--------	|-------	|----------------------------	|
+| princomp 	| FALSE  	| FALSE 	| using SVD                  	|
+| prcomp   	| TRUE   	| FALSE 	|                            	|
+| PCA      	|        	|       	| FactoMineR                 	|
+| dudi.pca 	|        	|       	| ade4                       	|
+| pca      	|        	|       	| PCAtools from Bioconductor 	|
+|          	|        	|       	|                            	|
 
 ```r
 
