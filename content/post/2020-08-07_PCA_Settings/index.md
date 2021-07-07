@@ -36,6 +36,14 @@ One can also use simply `prcomp` and `princomp` functions. Following table shows
  - `ExPosition`
 
 Default settings for center and scale are presented in the next table.
+
+
+| Function 	| Center 	| Scale 	| Remarks   	|
+|----------	|--------	|-------	|-----------	|
+| princom  	| FALSE  	| FALSE 	| using SVD 	|
+| prcom    	| TRUE   	| FALSE 	|           	|
+|          	|        	|       	|           	|
+
 ```r
 
 code fragment
