@@ -1,9 +1,9 @@
 +++
 date = "2020-09-04"
 lastmod = "2020-09-04"
-draft = true
+draft = false
 tags = ["R", "]
-title = "Title"
+title = "Convert wide to long with the function `tidyr::pivot_longer`"
 summary = """
 Summary
 """
@@ -20,7 +20,8 @@ math = false
   focal_point = "Smart"
 
 +++
-Sometimes we need to convert our hyperspectral object into data.frame. And for some visualization methods we need to have this data.frame in a long (one column with wavenumbers another with the intesities and third with spectrum description (in the code chunk below with cluster number: CL1 or Cl2 or Cl3)Convert wide to long with library(tidyr) function pivot_longer
+Sometimes we need to convert our hyperspectral object into data.frame. And for some visualization methods we need to have this data.frame in a long (one column with wavenumbers another with the intesities and third with spectrum description (in the code chunk below with cluster number: CL1 or Cl2 or Cl3)
+
 Some text `worldcloud` and other.
 
 ```r
