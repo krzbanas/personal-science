@@ -20,7 +20,7 @@ math = false
   focal_point = "Smart"
 
 +++
-Sometimes we need to convert our hyperspectral object into data.frame. And for some visualization methods we need to have this data.frame in a long format (one column with wavenumbers another with the intesities and third with spectrum description: in the code chunk below with cluster number: CL1 or Cl2 or Cl3) not in a wide format (first column with wavenumbers and subsequent columns with the spectra and their intensities). Function `hyperSpec::as.t.df` gives wide version as the output. We could use `tidyr::pivot_longer` function to convert it to long format. First argument tells which columns should be converted (here all except Wavenumber), `names_to` defines the name of the variable describing the spectrum,`values_to` define what should be the values for this variable.
+Sometimes we need to convert our hyperspectral object into data.frame. And for some visualization methods we need to have this data.frame in a long format (one column with wavenumbers another with the intesities and third with spectrum description: in the code chunk below with cluster number: Cl1 or Cl2 or Cl3) not in a wide format (first column with wavenumbers and subsequent columns with the spectra and their intensities). Function `hyperSpec::as.t.df` gives wide version as the output. We could use `tidyr::pivot_longer` function to convert it to long format. First argument tells which columns should be converted (here all except Wavenumber), `names_to` defines the name of the variable describing the spectrum,`values_to` define what should be the values for this variable.
 
 
 
