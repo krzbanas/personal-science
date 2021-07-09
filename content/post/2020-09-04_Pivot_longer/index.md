@@ -3,9 +3,9 @@ date = "2020-09-04"
 lastmod = "2020-09-04"
 draft = false
 tags = ["R","tidyr","long data"]
-title = "Convert wide to long with the function `tidyr::pivot_longer`"
+title = "Convert wide to long with the function pivot_longer (library tidyr)"
 summary = """
-Summary
+Convert wide to long with the function pivot_longer (library tidyr)
 """
 math = false
 
