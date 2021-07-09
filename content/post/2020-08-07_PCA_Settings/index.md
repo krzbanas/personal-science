@@ -6,7 +6,7 @@ draft = false
 tags = ["R", "PCA"]
 title = "Functions and default settings for PCA in R"
 summary = """
-Summary
+Functions and default settings for PCA in R
 """
 math = false
 
