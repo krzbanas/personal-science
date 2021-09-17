@@ -74,4 +74,3 @@ projects: ["RBC"]
 #   Otherwise, set `slides: ""`.
 slides:
 ---
-
