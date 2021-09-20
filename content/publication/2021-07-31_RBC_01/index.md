@@ -30,7 +30,7 @@ publication_types: ["2"]
 # Publication name and optional abbreviated publication name.
 publication: "*Communications Chemistry*, 4, 129"
 publication_short: "Communications Chemistry"
-abstract: "Malaria, caused by parasites of the species Plasmodium, is among the major life-threatening diseases to afflict humanity. The infectious cycle of Plasmodium is very complex involving distinct life stages and transitions characterized by cellular and molecular alterations. Therefore, novel single-cell technologies are warranted to extract details pertinent to Plasmodium-host cell interactions and underpinning biological transformations. Herein, we tested two emerging spectroscopic approaches: (a) Optical Photothermal Infrared spectroscopy and (b) Atomic Force Microscopy combined with infrared spectroscopy in contrast to (c) Fourier Transform InfraRed microspectroscopy, to investigate Plasmodium-infected erythrocytes. Chemical spatial distributions of selected bands and spectra captured using the three modalities for major macromolecules together with advantages and limitations of each method is presented here. These results indicate that O-PTIR and AFM-IR techniques can be explored for extracting sub-micron resolution molecular signatures within heterogeneous and dynamic samples such as Plasmodium-infected human RBCs."
+abstract: ""
 
 # Summary. An optional shortened abstract.
 summary: 
@@ -44,7 +44,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: "https://rdcu.be/cxugv"
+url_pdf: ""
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -74,3 +74,35 @@ projects: ["RBC"]
 #   Otherwise, set `slides: ""`.
 slides:
 ---
+
+
+
+
++++
+title = "Reversible hydrogen control of antiferromagnetic anisotropy in α-Fe2O3"
+date = "2021-09-09"
+authors = ["Hariom Jani", "Jiajun Linghu", "Sonu Hooda", "Rajesh V Chopdekar", "Changjian Li", "Ganesh Ji Omar", "Saurav Prakash", "Yonghua Du", "Ping Yang", "Agnieszka Banas", "Krzysztof Banas", "Siddhartha Ghosh", "Sunil Ojha", "G R Umapathy", "Dinakar Kanjilal", "A Ariando", "Stephen Pennycook", "Elke Arenholz", "Paolo Radaelli", "J M D Coey", "Yuan Ping Feng" , "T Venkatesan"]
+publication_types = ["2"]
+publication = "*Communications Chemistry*, 4, 129"
+publication_short = "Communications Chemistry, **IF=6.1(2020)**"
+abstract = "Malaria, caused by parasites of the species Plasmodium, is among the major life-threatening diseases to afflict humanity. The infectious cycle of Plasmodium is very complex involving distinct life stages and transitions characterized by cellular and molecular alterations. Therefore, novel single-cell technologies are warranted to extract details pertinent to Plasmodium-host cell interactions and underpinning biological transformations. Herein, we tested two emerging spectroscopic approaches: (a) Optical Photothermal Infrared spectroscopy and (b) Atomic Force Microscopy combined with infrared spectroscopy in contrast to (c) Fourier Transform InfraRed microspectroscopy, to investigate Plasmodium-infected erythrocytes. Chemical spatial distributions of selected bands and spectra captured using the three modalities for major macromolecules together with advantages and limitations of each method is presented here. These results indicate that O-PTIR and AFM-IR techniques can be explored for extracting sub-micron resolution molecular signatures within heterogeneous and dynamic samples such as Plasmodium-infected human RBCs."
+image_preview = ""
+selected = true
+projects = []
+tags = []
+url_pdf = ""
+url_preprint = ""
+url_code = ""
+url_dataset = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+url_poster = ""
+url_source = "https://rdcu.be/cxugv"
+math = true
+highlight = true
+[header]
+image = ""
+caption = ""
++++
+
