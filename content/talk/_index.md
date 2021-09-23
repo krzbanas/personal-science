@@ -1,5 +1,5 @@
 ---
-title: Recent & Upcoming Talks
+title: My Talks
 
 # View.
 #   1 = List
