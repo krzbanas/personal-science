@@ -190,7 +190,7 @@ plugins_js  = []
   date_format = "2006-01-02"
 
   # Citation style ("apa" or "mla")
-  citation_style = "apa"
+  citation_style = "mla"
 
 # Configuration of project pages.
 [projects]
