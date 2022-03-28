@@ -44,7 +44,7 @@ local_business_type = ""
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = "Krzysztof Banas official website with publications, talks and projects - Senior Research Fellow - Singapore Synchrotron Light Source"
+description = "Krzysztof Banas official website with publications, talks and projects - Principal Research Fellow - Singapore Synchrotron Light Source"
 
 ############################
 ## Site Features
@@ -83,8 +83,6 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "krzysztof@nus.edu.sg"
 phone = "+65 6516 7837"
-
-highlight_superuser = true
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
