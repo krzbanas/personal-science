@@ -84,7 +84,7 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 email = "krzysztof@nus.edu.sg"
 phone = "+65 6516 7837"
 
-
+highlight_superuser = true
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
