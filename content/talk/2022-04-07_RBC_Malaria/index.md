@@ -1,5 +1,5 @@
 +++
-date = 2022-03-30T14:00:00 
+date = 2022-04-07T14:00:00 
 publishDate = 2022-03-30 # Schedule page publish date.
 
 title = "Infrared characterization of malaria-infected red blood cells"
