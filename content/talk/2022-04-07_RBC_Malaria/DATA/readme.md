@@ -22,27 +22,6 @@ From Steph and Lucy's [`datasauRus` Vignette](https://cran.r-project.org/web/pac
 > 
 > This package looks to make these datasets available for use as an advanced [Anscombe’s Quartet](Anscombe’s Quartet), available in R as `anscombe`.
 
-### Get the data here
-
-```{r}
-# Get the Data
-
-# Read in with tidytuesdayR package 
-# Install from CRAN via: install.packages("tidytuesdayR")
-# This loads the readme and all the datasets for the week of interest
-
-# Either ISO-8601 date or year/week works!
-
-tuesdata <- tidytuesdayR::tt_load('2020-10-13')
-tuesdata <- tidytuesdayR::tt_load(2020, week = 42)
-
-datasaurus <- tuesdata$datasaurus
-
-# Or read in the data manually
-
-datasaurus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-10-13/datasaurus.csv')
-
-```
 ### Data Dictionary
 
 # `datasaurus.csv`
@@ -53,16 +32,3 @@ datasaurus <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience
 |x        |double    | x-coordinate |
 |y        |double    | y-coordinate |
 
-### Cleaning Script
-
-No data cleaning this week, but a quick vignette from Steph and Lucy:
-
-```{r}
-library(ggplot2)
-
-ggplot(datasaurus_dozen, aes(x=x, y=y, colour=dataset))+
-  geom_point()+
-  theme_void()+
-  theme(legend.position = "none")+
-  facet_wrap(~dataset, ncol=3)
-```
