@@ -21,7 +21,7 @@ projects = [ ]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "talk/2022-05-12_fuel_Nairobi/20220512_Slides.html"
+url_slides = "talk/2022-05-12_Fuel_Nairobi/20220512_Slides.html"
 url_video = ""
 url_code = ""
 
