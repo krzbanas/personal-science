@@ -5,7 +5,7 @@ publishDate = 2021-02-23 # Schedule page publish date.
 title = "Honey and Wine: 2D correlation spectroscopy"
 time_start = 2021-02-24T11:00:00
 time_end = 2021-02-24T11:40:00
-abstract = "Abstract"
+abstract = "Internal Singapore Synchrotron Light Source seminar, season 1. Presenting the fundamentals of 2D correlation spectroscopy for time trials of liquid samples measured in open environment (air drying)"
 event_url = ""
 location = "Singapore, Singapore"
 
