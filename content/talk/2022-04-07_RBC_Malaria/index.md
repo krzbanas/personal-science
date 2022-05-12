@@ -5,7 +5,7 @@ publishDate = 2022-03-30 # Schedule page publish date.
 title = "Infrared characterization of malaria-infected red blood cells"
 time_start = 2022-04-07T14:00:00
 time_end = 2022-04-07T14:45:00
-abstract = "Abstract"
+abstract = "Internal Singapore Synchrotron Light Source seminar series, season 2. Presentation of the scientific method for contemporary experiment design."
 event_url = ""
 location = "Singapore, Singapore"
 
