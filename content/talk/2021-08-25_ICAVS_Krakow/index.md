@@ -5,7 +5,7 @@ publishDate = 2021-07-24 # Schedule page publish date.
 title = "2D correlation spectroscopy Propolis Drying"
 time_start = 2021-08-25T11:00:00
 time_end = 2021-08-25T11:20:00
-abstract = "Abstract"
+abstract = "Talk at ICAVS conference presenting application of 2D correlation spectroscopy method for the results obtained during propolis drying experiment"
 event_url = ""
 location = "Krakow, Poland"
 
