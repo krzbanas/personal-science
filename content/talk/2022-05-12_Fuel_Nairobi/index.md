@@ -6,7 +6,7 @@ title = "Infrared spectroscopy for fuel fraud detection – building reproducibl
 time_start = 2022-05-12T14:40:00
 time_end = 2022-05-12T14:55:00
 abstract = "Brief introduction of using infrared spectroscopy for fuel fraud detection. Presentation of available sampling techniques for liquid samples (flow cells, ATR mode). Pointing the key issues in the experiment design and data processing for the reproducible research."
-event_url = ""=.
+event_url = ""
 location = "Nairobi, Kenya"
 
 # Is this a selected talk? (true/false)
