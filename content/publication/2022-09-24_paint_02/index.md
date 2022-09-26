@@ -1,6 +1,5 @@
 +++
-title = "Comparison of ATR–FTIR and O-PTIR Imaging Techniques for the Characterisation of Zinc-Type Degradation
-Products in a Paint Cross-Section"
+title = "Comparison of ATR–FTIR and O-PTIR Imaging Techniques for the Characterisation of Zinc-Type Degradation Products in a Paint Cross-Section"
 date = "2022-09-24"
 authors = ["Lynn Chua", "Agnieszka Banas", "Krzysztof Banas"]
 publication_types = ["2"]
