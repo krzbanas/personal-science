@@ -27,7 +27,7 @@ title = "Links"
 - link 2
 
 ## Data Science
-- Data Science Tutorial for Beginners (https://www.simplilearn.com/tutorials/data-science-tutorial)
+- [Data Science Tutorial for Beginners] (https://www.simplilearn.com/tutorials/data-science-tutorial)
 - link 4
 
 ## Photography
