@@ -23,6 +23,10 @@ title = "Links"
 - [Infrared Spectroscopy: A Quick Primer On Interpreting Spectra](https://www.masterorganicchemistry.com/2016/11/23/quick_analysis_of_ir_spectra/)
 
 ### New Techniques
+- [A guide to nanoscale IR spectroscopy] (https://www.nist.gov/publications/guide-nanoscale-ir-spectroscopy-resonance-enhanced-transduction-contact-and-tapping)
+- link 2
+
+## Data Science
 - link 3
 - link 4
 
