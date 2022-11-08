@@ -21,6 +21,7 @@ title = "Links"
 - [An education video on Fourier Transform Infrared Spectrometry from the Royal Society of Chemistry](https://youtu.be/DDTIJgIh86E)
 - [Introduction to Infrared Spectroscopy](https://youtu.be/0S_bt3JI150)
 - [Infrared Spectroscopy: A Quick Primer On Interpreting Spectra](https://www.masterorganicchemistry.com/2016/11/23/quick_analysis_of_ir_spectra/)
+
 ### New Techniques
 - link 3
 - link 4
