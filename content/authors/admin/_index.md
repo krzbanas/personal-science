@@ -38,7 +38,7 @@ education:
     year: 2020 
   - course: PhD in Physics
     institution: Jagiellonian University, Krakow, Poland
-    year: 2004
+    year: 2002
   - course: MSc in Physics
     institution: Jagiellonian University, Krakow, Poland
     year: 1996
