@@ -31,5 +31,3 @@ colnames(mean_cl3)<-c("Wavenumber", "Cl1","Cl2","Cl3")
 mean_cl3_long<-mean_cl3 %>%pivot_longer(!Wavenumber, names_to = "Cluster", values_to = "mean")
 ```
 
-Insert Image
-{{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
