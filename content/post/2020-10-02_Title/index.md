@@ -2,8 +2,8 @@
 date = "2020-10-02"
 lastmod = "2020-10-02"
 draft = true
-tags = ["R"]
-title = "Title"
+tags = ["R", "hyperSpec"]
+title = "create a new hyperspectral object with the hyperSpec package in R"
 summary = """
 Summary
 """
@@ -21,13 +21,20 @@ math = false
 
 +++
 
-Some text `worldcloud` and other.
+To create a new hyperspectral object with the hyperSpec package in R, you can use the `new` function. Here is an example:
 
 ```r
+library(hyperSpec)
 
-code fragment
+# create example data matrix with 3 spectra and 4 wavelength channels
+data_matrix <- matrix(c(1,2,3,4,5,6,7,8,9,10,11,12), nrow = 3, ncol = 4)
+
+# create a new hyperspectral object with the data matrix
+hs_object <- new("hyperSpec", wavelength = 400:700, spc = data_matrix)
+
+# print the hyperspectral object
+print(hs_object)
 
 ```
 
-Insert Image
-{{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
+
