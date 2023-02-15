@@ -1,7 +1,7 @@
 +++
 date = "2020-10-02"
 lastmod = "2020-10-02"
-draft = true
+draft = false
 tags = ["R", "hyperSpec"]
 title = "create a new hyperspectral object with the hyperSpec package in R"
 summary = """
