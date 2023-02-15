@@ -5,7 +5,7 @@ draft = false
 tags = ["R", "hyperSpec"]
 title = "create a new hyperspectral object with the hyperSpec package in R"
 summary = """
-Summary
+Create a new hyperspectral object
 """
 math = false
 
@@ -37,4 +37,7 @@ print(hs_object)
 
 ```
 
+In this example, we first create an example data matrix with 3 spectra and 4 wavelength channels. Then we use the `new` function to create a new hyperspectral object called `hs_object`. We specify the wavelength range using the `wavelength` argument and the data matrix using the `spc` argument. Finally, we print the hyperspectral object to see the contents.
+
+You can adjust the number of spectra and wavelength channels, as well as the actual values in the data matrix, to suit your needs.
 
