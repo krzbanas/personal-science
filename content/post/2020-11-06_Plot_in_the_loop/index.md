@@ -42,4 +42,6 @@ for (value in values_to_plot) {
 
 ```
 
+In this example, we first create some example data for the plot. We also create an example vector called `values_to_plot` with three values that we want to plot. We then use a `for` loop to iterate over each value in the vector. For each value, we create a subset of the data that only includes the points where the x value is equal to the current value. We then create a plot for the current value using the subsetted data.
 
+You can modify this code to suit your specific needs by changing the data and values to plot.
