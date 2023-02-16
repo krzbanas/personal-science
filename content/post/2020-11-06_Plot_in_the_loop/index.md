@@ -20,8 +20,7 @@ math = false
   focal_point = "Smart"
 
 +++
-
-Some text `worldcloud` and other.
+To plot in a loop for all elements of a vector in R, you can use a for loop to iterate over each element of the vector and create a separate plot for each element. Here is an example:
 
 ```r
 # create example data
@@ -41,8 +40,6 @@ for (value in values_to_plot) {
   plot(subset_data$x, subset_data$y, main = paste("Value =", value))
 }
 
-
 ```
 
-Insert Image
-{{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
+
