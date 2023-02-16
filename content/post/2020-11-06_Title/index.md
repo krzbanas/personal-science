@@ -1,9 +1,9 @@
 +++
 date = "2020-11-06"
 lastmod = "2020-11-06"
-draft = true
-tags = ["R"]
-title = "Title"
+draft = false
+tags = ["R", "plot", "loop"]
+title = "Ploting in the loop"
 summary = """
 Summary
 """
@@ -24,8 +24,23 @@ math = false
 Some text `worldcloud` and other.
 
 ```r
+# create example data
+x <- seq(0, 10, length.out = 100)
+y <- sin(x)
 
-code fragment
+# create example vector of values to plot
+values_to_plot <- c(1, 5, 8)
+
+# create a loop to plot for all values in the vector
+for (value in values_to_plot) {
+  # create a subset of the data for the current value
+  subset_data <- data.frame(x = x, y = y)
+  subset_data <- subset_data[round(subset_data$x) == value, ]
+  
+  # create a plot for the current value
+  plot(subset_data$x, subset_data$y, main = paste("Value =", value))
+}
+
 
 ```
 
