@@ -1,11 +1,11 @@
 +++
 date = "2020-12-04"
 lastmod = "2020-12-04"
-draft = true
-tags = ["R"]
+draft = false
+tags = ["R", "NA", "incomplete observations"]
 title = "Title"
 summary = """
-Summary
+find which columns in an R data frame include missing values (NA)
 """
 math = false
 
