@@ -21,13 +21,28 @@ math = false
 
 +++
 
-Some text `worldcloud` and other.
+To find which columns in an R data frame include missing values (NA), you can use the `colSums()` function, which calculates the sum of each column. If you apply this function to a data frame with missing values, the resulting vector will include a count of the number of missing values in each column.
+
+Here's an example of how to use `colSums()` to identify columns with missing values:
 
 ```r
+# Create a sample data frame with missing values
+df <- data.frame(x = c(1, 2, NA, 4), y = c(NA, 2, 3, 4), z = c(1, 2, 3, NA))
 
-code fragment
+# Use colSums() to count the number of NAs in each column
+na_counts <- colSums(is.na(df))
 
+# Print the result
+na_counts
 ```
 
-Insert Image
-{{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
+In this example, `na_counts` will be a vector with three elements, indicating the number of missing values in each column of `df`. Columns with at least one missing value will have a count greater than zero. You can also use logical indexing to extract the column names with missing values:
+
+
+```r
+# Extract column names with missing values
+na_cols <- names(na_counts)[na_counts > 0]
+
+# Print the result
+na_cols
+```
