@@ -21,7 +21,7 @@ math = false
 
 +++
 
-You can use the ggplot2 and maps packages in R to create a map of airports from a CSV file. Here's an example code to get you started:
+You can use the `ggplot2` and maps packages in R to create a map of airports from a CSV file. Here's an example code to get you started:
 
 ```r
 library(ggplot2)
@@ -51,3 +51,6 @@ ggplot() +
 
 ```
 
+In this code, we first load the CSV data into a data frame called airports. We then create a base map using the `map_data()` function from the `maps` package. We add this map data as a polygon layer to the plot using `geom_polygon()`, and then add the airport data as a scatterplot layer using `geom_point()`. We use `coord_fixed()` to ensure that the aspect ratio of the map is preserved, and `labs()` to set the axis labels. Finally, we adjust the theme of the plot using `theme_minimal()`, but you can use any other theme you prefer.
+
+Note that this code assumes that the CSV file contains columns called "Name", "Longitude", and "Latitude". If your CSV file has different column names, you'll need to adjust the code accordingly.
