@@ -51,6 +51,13 @@ ggplot() +
 
 ```
 
-In this code, we first load the CSV data into a data frame called airports. We then create a base map using the `map_data()` function from the `maps` package. We add this map data as a polygon layer to the plot using `geom_polygon()`, and then add the airport data as a scatterplot layer using `geom_point()`. We use `coord_fixed()` to ensure that the aspect ratio of the map is preserved, and `labs()` to set the axis labels. Finally, we adjust the theme of the plot using `theme_minimal()`, but you can use any other theme you prefer.
+In this code, we first load the CSV data into a data frame called `airports`. We then create a base map using the `map_data()` function from the `maps` package. We add this map data as a polygon layer to the plot using `geom_polygon()`, and then add the airport data as a scatterplot layer using `geom_point()`. We use `coord_fixed()` to ensure that the aspect ratio of the map is preserved, and `labs()` to set the axis labels. Finally, we adjust the theme of the plot using `theme_minimal()`, but you can use any other theme you prefer.
 
 Note that this code assumes that the CSV file contains columns called "Name", "Longitude", and "Latitude". If your CSV file has different column names, you'll need to adjust the code accordingly.
+
+
+To add the labels with airport names to the map, you can use the `geom_text()` layer in ggplot2.
+
+In this code, we add a `geom_text()` layer that uses the `Name` column of the `airports` data frame as the label for each point. We set `hjust` = 0 and `vjust` = 1 to left-align the labels and position them above the points. We also set the `size` parameter to control the size of the labels. Note that we add the `geom_text()` layer before the `geom_point()` layer to ensure that the labels appear on top of the points.
+
+You can adjust the label positioning and size as desired, and also modify the `hjust` and `vjust` parameters to center or right-align the labels.
