@@ -1,7 +1,7 @@
 +++
 date = "2021-01-01"
 lastmod = "2021-01-01"
-draft = true
+draft = false
 tags = ["R", "maps"]
 title = "Airports Map"
 summary = """
