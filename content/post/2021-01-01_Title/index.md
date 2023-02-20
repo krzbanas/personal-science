@@ -3,9 +3,9 @@ date = "2021-01-01"
 lastmod = "2021-01-01"
 draft = true
 tags = ["R"]
-title = "Title"
+title = "Airports Map"
 summary = """
-ADD SUMMARY
+Map with airports location from csv
 """
 math = false
 
@@ -21,11 +21,33 @@ math = false
 
 +++
 
-Some text `worldcloud` and other.
+You can use the ggplot2 and maps packages in R to create a map of airports from a CSV file. Here's an example code to get you started:
 
 ```r
+library(ggplot2)
+library(maps)
 
-code fragment
+# Load the data from the CSV file
+airports <- read.csv("your_csv_file.csv")
+
+# Create a base map using the 'maps' package
+world_map <- map_data("world")
+
+# Create a scatterplot of the airports on the map
+ggplot() +
+  # Add the map data as a layer
+  geom_polygon(data = world_map, aes(x = long, y = lat, group = group),
+               fill = "white", colour = "black") +
+  # Add the airport data as a layer with labels
+  geom_text(data = airports, aes(x = Longitude, y = Latitude, label = Name),
+            size = 2, hjust = 0, vjust = 1) +
+  # Add the airport data as a layer without labels
+  geom_point(data = airports, aes(x = Longitude, y = Latitude), size = 1) +
+  # Set the aspect ratio and axis labels
+  coord_fixed() +
+  labs(x = "Longitude", y = "Latitude") +
+  # Adjust the theme as desired
+  theme_minimal()
 
 ```
 
