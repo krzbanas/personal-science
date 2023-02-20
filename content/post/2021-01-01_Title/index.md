@@ -2,7 +2,7 @@
 date = "2021-01-01"
 lastmod = "2021-01-01"
 draft = true
-tags = ["R"]
+tags = ["R", "maps"]
 title = "Airports Map"
 summary = """
 Map with airports location from csv
