@@ -1,7 +1,7 @@
 +++
 date = "2021-02-05"
 lastmod = "2021-02-05"
-draft = true
+draft = false
 tags = ["R"]
 title = "Recode the factors with tidyverse"
 summary = """
@@ -50,5 +50,5 @@ print(df_new)
 
 ```
 
-
+This code will recode the factor levels in column x with the new names specified in `level_mapping`, and will order them as specified in `new_order`. The `fct_recode()` function is used to create a mapping between the old and new factor levels, and the `!!!` operator is used to unpack the mapping as separate arguments. The `.ordered = TRUE` argument is used to preserve the order of the factor levels. Finally, the `fct_relevel()` function is used to reorder the factor levels according to `new_order`.
 
