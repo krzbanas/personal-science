@@ -3,9 +3,9 @@ date = "2021-02-05"
 lastmod = "2021-02-05"
 draft = true
 tags = ["R"]
-title = "Title"
+title = "Recode the factors with tidyverse"
 summary = """
-Summary
+How recode the factors in R to give them modified names and order with tidyverse
 """
 math = false
 
@@ -21,7 +21,7 @@ math = false
 
 +++
 
-Some text `worldcloud` and other.
+To recode the factors in R with modified names and order, you can use the `forcats` package within the tidyverse framework. Here is an example:
 
 ```r
 
