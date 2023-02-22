@@ -2,7 +2,7 @@
 date = "2021-03-05"
 lastmod = "2021-03-05"
 draft = false
-tags = ["R", "plot", "ggplot2]
+tags = ["R", "plot", "ggplot2"]
 title = "How to remove y-axis labels in ggplot"
 summary = """
 How to remove y-axis labels in a ggplot chart
