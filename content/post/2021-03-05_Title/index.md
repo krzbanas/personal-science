@@ -3,7 +3,7 @@ date = "2021-03-05"
 lastmod = "2021-03-05"
 draft = true
 tags = ["R"]
-title = "Title"
+title = "How to remove y-axis labels in ggplot"
 summary = """
 Summary
 """
@@ -21,11 +21,18 @@ math = false
 
 +++
 
-Some text `worldcloud` and other.
+To remove y-axis labels in a ggplot chart, you can use the `element_blank()` function for the `axis.text.y` parameter. Here's an example code:
 
 ```r
+library(ggplot2)
 
-code fragment
+# create example data
+df <- data.frame(x = 1:10, y = rnorm(10))
+
+# create ggplot chart
+ggplot(df, aes(x, y)) +
+  geom_point() +
+  theme(axis.text.y = element_blank())
 
 ```
 
