@@ -1,11 +1,11 @@
 +++
 date = "2021-03-05"
 lastmod = "2021-03-05"
-draft = true
-tags = ["R"]
+draft = false
+tags = ["R", "plot", "ggplot2]
 title = "How to remove y-axis labels in ggplot"
 summary = """
-Summary
+How to remove y-axis labels in a ggplot chart
 """
 math = false
 
@@ -33,8 +33,16 @@ df <- data.frame(x = 1:10, y = rnorm(10))
 ggplot(df, aes(x, y)) +
   geom_point() +
   theme(axis.text.y = element_blank())
-
 ```
 
+This will remove the y-axis labels, but keep the y-axis line and ticks. If you also want to remove the ticks, you can use the `element_blank()` function for the `axis.ticks.y` parameter:
 
 
+```r
+ggplot(df, aes(x, y)) +
+  geom_point() +
+  theme(axis.text.y = element_blank(), 
+        axis.ticks.y = element_blank())
+```
+
+This will remove both the y-axis labels and ticks.
