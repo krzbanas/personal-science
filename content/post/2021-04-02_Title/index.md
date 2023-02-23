@@ -1,7 +1,7 @@
 +++
 date = "2021-04-02"
 lastmod = "2021-04-02"
-draft = FALSE
+draft = false
 tags = ["R","ggplot2","readability"]
 title = "How to change default ggplot2 settings to improve readability of the plot?"
 summary = """
