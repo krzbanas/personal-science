@@ -23,22 +23,19 @@ math = false
 
 To change the default ggplot2 settings and improve the readability of the plot, you can use the `theme()` function to modify various elements such as the font size, font family, axis text, legend text, and background color. Here are some common modifications you can make:
 
-- Increase the font size: theme(text = element_text(size = 14))
-- Change the font family: theme(text = element_text(family = "Arial"))
-- Change the axis text color: theme(axis.text = element_text(color = "black"))
-- Change the legend text color: theme(legend.text = element_text(color = "black"))
-- Change the background color: theme(panel.background = element_rect(fill = "white"))
-- Remove the grid lines: theme(panel.grid = element_blank())
-- Increase the size of the legend text: theme(legend.text = element_text(size = 12))
-- Increase the size of the axis labels: theme(axis.title = element_text(size = 14))
+- Increase the font size: `theme(text = element_text(size = 14))`
+- Change the font family: `theme(text = element_text(family = "Arial"))`
+- Change the axis text color: `theme(axis.text = element_text(color = "black"))`
+- Change the legend text color: `theme(legend.text = element_text(color = "black"))`
+- Change the background color: `theme(panel.background = element_rect(fill = "white"))`
+- Remove the grid lines: `theme(panel.grid = element_blank())`
+- Increase the size of the legend text: `theme(legend.text = element_text(size = 12))`
+- Increase the size of the axis labels: `theme(axis.title = element_text(size = 14))`
 
-You can modify any number of elements using the theme() function. Just make sure to add it at the end of your ggplot code, like so: ggplot(data, aes(x, y)) + geom_point() + theme(...).
-Some text `worldcloud` and other.
+You can modify any number of elements using the `theme()` function. Just make sure to add it at the end of your ggplot code, like here: 
 
 ```r
-
-
-
+ggplot(data, aes(x, y)) + geom_point() + theme(...).
 ```
 
 
