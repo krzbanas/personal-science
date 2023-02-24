@@ -29,6 +29,4 @@ code fragment
 
 ```
 
-Insert Image
-{{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
 
