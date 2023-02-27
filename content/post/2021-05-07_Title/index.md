@@ -3,9 +3,9 @@ date = "2021-05-07"
 lastmod = "2021-05-07"
 draft = false
 tags = ["R"]
-title = "Title"
+title = "How to save ggplot2 plot to pdf with high resolution?"
 summary = """
-Summary
+Save ggplot2 to pdf
 """
 math = false
 
@@ -36,4 +36,17 @@ my_plot <- ggplot(mtcars, aes(x=wt, y=mpg)) +
 # save the plot to a pdf file with high resolution
 ggsave("my_plot.pdf", plot=my_plot, width=10, height=8, dpi=300)
 ```
-In this example, we first create a sample ggplot2 plot called my_plot. Then, we use the `ggsave()` function to save the plot to a pdf file called "my_plot.pdf". We also specify the `width`, `height`, and `dpi` arguments to adjust the size and resolution of the saved plot.
+In this example, we first create a sample ggplot2 plot called `my_plot`. Then, we use the `ggsave()` function to save the plot to a pdf file called "my_plot.pdf". We also specify the `width`, `height`, and `dpi` arguments to adjust the size and resolution of the saved plot.
+
+How to combine two plots with adding letters a and b to the top right of the subplots?
+
+You can use the `patchwork` package. Here is an example code:
+
+```r
+
+
+
+```
+
+
+
