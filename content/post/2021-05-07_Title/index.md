@@ -43,10 +43,19 @@ How to combine two plots with adding letters a and b to the top right of the sub
 You can use the `patchwork` package. Here is an example code:
 
 ```r
+library(ggplot2)
+library(patchwork)
 
+# Create two sample plots
+p1 <- ggplot(mtcars, aes(x=wt, y=mpg)) + geom_point() + ggtitle("Plot A")
+p2 <- ggplot(mtcars, aes(x=wt, y=disp)) + geom_point() + ggtitle("Plot B")
 
-
+# Combine the plots using patchwork
+(p1 + plot_spacer() + p2) + 
+  plot_layout(ncol=2, widths=c(1,1), heights=c(1,1), guides = 'collect') + 
+  plot_annotation(tag_levels = 'A', tag_suffix = ")")
 ```
 
+In this example, `p1` and `p2` are the two ggplot2 plots you want to combine. `plot_spacer()` adds a blank space between the two plots. `plot_layout()` specifies the layout of the combined plots. `plot_annotation()` adds the letters "A" and "B" to the top right of each subplot, and the `tag_suffix` argument specifies the closing parenthesis for the letters.
 
 
