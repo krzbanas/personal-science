@@ -21,12 +21,20 @@ math = false
 
 +++
 
-Try change this
+To save a ggplot2 plot to a pdf file with high resolution, you can use the `ggsave()` function.
+
+Here is an example code snippet:
 
 ```r
+library(ggplot2)
 
-code fragment
+# create a sample plot
+my_plot <- ggplot(mtcars, aes(x=wt, y=mpg)) + 
+             geom_point() + 
+             labs(title="My Plot")
 
+# save the plot to a pdf file with high resolution
+ggsave("my_plot.pdf", plot=my_plot, width=10, height=8, dpi=300)
 ```
 or this
 
