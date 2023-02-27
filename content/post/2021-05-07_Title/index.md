@@ -1,7 +1,7 @@
 +++
 date = "2021-05-07"
 lastmod = "2021-05-07"
-draft = true
+draft = false
 tags = ["R"]
 title = "Title"
 summary = """
@@ -36,5 +36,4 @@ my_plot <- ggplot(mtcars, aes(x=wt, y=mpg)) +
 # save the plot to a pdf file with high resolution
 ggsave("my_plot.pdf", plot=my_plot, width=10, height=8, dpi=300)
 ```
-or this
-
+In this example, we first create a sample ggplot2 plot called my_plot. Then, we use the `ggsave()` function to save the plot to a pdf file called "my_plot.pdf". We also specify the `width`, `height`, and `dpi` arguments to adjust the size and resolution of the saved plot.
