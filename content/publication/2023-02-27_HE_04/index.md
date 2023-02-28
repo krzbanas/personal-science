@@ -11,7 +11,7 @@ image_preview = ""
 featured = false
 projects = []
 tags = []
-url_pdf = ""
+url_pdf = "https://www.mdpi.com/1420-3049/28/5/2233"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -19,7 +19,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://doi.org/10.1016/j.saa.2017.06.048"
+url_source = "[https://doi.org/10.3390/molecules28052233]"
 math = true
 highlight = true
 [header]
