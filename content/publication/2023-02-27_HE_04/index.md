@@ -4,7 +4,7 @@ date = "2023-02-27"
 authors = ["A M Banas", "K Banas", "M B H Breese"]
 publication_types = ["2"]
 publication = "Molecules 28(5), 2233"
-publication_short = "Molecules, **IF=2.931(2018)**"
+publication_short = "Molecules, **IF=4.927(2021)**"
 abstract = "Forensic science is a field that requires precise and reliable methods for the detection and analysis of evidence. One such method is Fourier Transform Infrared (FTIR) spectroscopy, which provides high sensitivity and selectivity in the detection of samples. In this study, the use of FTIR spectroscopy and statistical multivariate analysis to identify high explosive (HE) materials (C-4, TNT, and PETN) in the residues after high- and low-order explosions is demonstrated. Additionally, a detailed description of the data pre-treatment process and the use of various machine learning classification techniques to achieve successful identification is also provided. The best results were obtained with the hybrid LDA-PCA technique, which was implemented using the R environment, a code-driven open-source platform that promotes reproducibility and transparency."
 image_preview = ""
 featured = true
