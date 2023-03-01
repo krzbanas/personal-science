@@ -2,10 +2,10 @@
 date = 2023-03-30T14:00:00 
 publishDate = 2023-02-28 # Schedule page publish date.
 
-title = "Infrared characterization of malaria-infected red blood cells"
+title = "Classification of the Residues after High and Low Order Explosions using Machine Learning Techniques on Fourier Transform Infrared (FTIR) spectra"
 time_start = 2023-03-30T14:00:00
 time_end = 2023-03-30T14:45:00
-abstract = "Internal Singapore Synchrotron Light Source seminar series, season 3. Title"
+abstract = "Internal Singapore Synchrotron Light Source seminar series, season 3. Classification of the Residues after High and Low Order Explosions using Machine Learning Techniques on Fourier Transform Infrared (FTIR) spectra"
 event_url = ""
 location = "Singapore, Singapore"
 
