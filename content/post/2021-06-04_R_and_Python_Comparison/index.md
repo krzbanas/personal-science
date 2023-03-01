@@ -20,7 +20,9 @@ math = false
   focal_point = "Smart"
 
 +++
-Code chunk in R and it's equivalent in Python that reads spectrum from csv, subtracts baseline, perform area normalization and plot the spectrum in high quality
+Code chunk in R and it's equivalent in Python that reads spectrum from csv, subtracts baseline, perform area normalization and plot the spectrum in high quality.
+
+In R:
 
 ```r
 library(tidyverse)
@@ -49,6 +51,7 @@ ggplot(spectrum_normalized, aes(wavelength, intensity)) +
   scale_y_continuous(name = "Intensity (a.u.)") +
   theme_minimal()
 ```
+In Python:
 
 ```python
 import pandas as pd
