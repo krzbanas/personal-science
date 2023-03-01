@@ -2,10 +2,10 @@
 date = "2021-06-04"
 lastmod = "2021-06-04"
 draft = true
-tags = ["R"]
-title = "Title"
+tags = ["R", "Python"]
+title = "R and Python Comparison"
 summary = """
-Summary
+R and Python comparison for simple spectral processing
 """
 math = false
 
@@ -20,14 +20,17 @@ math = false
   focal_point = "Smart"
 
 +++
-
-Some text `worldcloud` and other.
+Code chunk in R and it's equivalent in Python that reads spectrum from csv, subtracts baseline, perform area normalization and plot the spectrum in high quality
 
 ```r
 
-code fragment
+
 
 ```
 
-Insert Image
-{{< figure library= "true" src="cloud1.png" title="Word Cloud: Company A" >}}
+```python
+
+
+
+```
+
