@@ -1,7 +1,7 @@
 +++
 date = "2021-06-04"
 lastmod = "2021-06-04"
-draft = true
+draft = false
 tags = ["R", "Python"]
 title = "R and Python Comparison"
 summary = """
