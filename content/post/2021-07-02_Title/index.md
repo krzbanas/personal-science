@@ -49,4 +49,8 @@ ggstatsplot::ggsviolin(
 ```
 
 
+In this example, we first generate example data for two groups (group1 and group2) using the `rnorm()` function. We then perform a Wilcoxon rank sum test for the medians of the two groups using the `wilcox.test()` function.
+
+Finally, we use the `ggsviolin()` function from the `ggstatsplot` library to create a violin plot with `jittered` data points (add = "jitter") using the example data. The x and y arguments specify the variables to be plotted, and draw_quantiles specifies the quantiles to be drawn on the violin plot. The ggtheme argument specifies the theme to be used for the plot (in this case, theme_bw() from the ggplot2 library).
+
 
