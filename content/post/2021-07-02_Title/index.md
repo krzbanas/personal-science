@@ -1,11 +1,11 @@
 +++
-date = "2021-06-04"
-lastmod = "2021-06-04"
+date = "2021-07-02"
+lastmod = "2021-07-02"
 draft = false
-tags = ["R", "Python"]
-title = "R and Python Comparison"
+tags = ["R", "ggstatplot"]
+title = "Equality of medians with violin plot"
 summary = """
-R and Python comparison for simple spectral processing
+Test the equality of two groups medians and plots violin plot using ggstatsplot library with data points jittered
 """
 math = false
 
