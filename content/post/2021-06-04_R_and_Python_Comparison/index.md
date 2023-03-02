@@ -81,4 +81,3 @@ plt.grid(b=True, which='major', color='gray', linestyle='-')
 plt.grid(b=True, which='minor', color='gray', linestyle='--')
 plt.show()
 ```
-
