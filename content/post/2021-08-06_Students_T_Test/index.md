@@ -21,10 +21,22 @@ math = false
 
 +++
 
+Here is an example of performing a two-sample t-test in R and interpreting the results.
 
+Suppose we want to test whether the mean height of men is significantly different from the mean height of women. We have two samples: one of heights of 50 men and one of heights of 50 women. We can use a two-sample t-test to test whether the difference between the sample means is statistically significant.
 
 ```r
+# Generate fake data
+set.seed(123)
+men_heights <- rnorm(50, mean = 175, sd = 7)
+women_heights <- rnorm(50, mean = 162, sd = 6)
 
+# Perform two-sample t-test
+t_test <- t.test(men_heights, women_heights)
+
+# Print results
+t_test
 ```
+
 
 
