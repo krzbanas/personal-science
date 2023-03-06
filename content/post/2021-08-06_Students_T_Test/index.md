@@ -38,5 +38,18 @@ t_test <- t.test(men_heights, women_heights)
 t_test
 ```
 
+The output of the `t.test()` function provides a lot of information, including the sample means, the test statistic, the degrees of freedom, the p-value, and confidence intervals:
 
+```yaml
+Welch Two Sample t-test
+
+data:  men_heights and women_heights
+t = 16.563, df = 97.842, p-value < 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+95 percent confidence interval:
+ 12.35252 14.92231
+sample estimates:
+mean of x mean of y 
+ 174.5499  162.0828 
+```
 
