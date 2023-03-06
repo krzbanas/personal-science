@@ -54,7 +54,7 @@ mean of x mean of y
 ```
 
 
-The test statistic `t` is calculated as the difference between the sample means divided by the standard error of the difference. The degrees of freedom `df` are calculated using a Welch-Satterthwaite approximation, which accounts for unequal variances in the two samples. The `p-value` is very small (`p-value < 2.2e-16`), indicating strong evidence against the null hypothesis that the mean heights of men and women are equal. The 95% confidence interval for the difference in means (12.35252 14.92231) does not contain 0, further supporting the rejection of the null hypothesis.
+The test statistic `t` is calculated as the difference between the sample means divided by the standard error of the difference. The degrees of freedom `df` are calculated using a Welch-Satterthwaite approximation, which accounts for unequal variances in the two samples. The `p-value` is very small (`p-value < 2.2e-16`), indicating strong evidence against the null hypothesis that the mean heights of men and women are equal. The 95% confidence interval for the difference in means (`12.35252 14.92231`) does not contain 0, further supporting the rejection of the null hypothesis.
 
 In summary, based on the results of the two-sample t-test, we can conclude that there is strong evidence that the mean height of men is significantly different from the mean height of women, with men being taller on average.
 
