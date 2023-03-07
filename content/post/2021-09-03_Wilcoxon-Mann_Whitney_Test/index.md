@@ -30,7 +30,8 @@ The null hypothesis is that the two classes have the same median math test score
 class_A <- c(70, 85, 68, 89, 78, 92, 75, 82, 80, 87)
 class_B <- c(62, 77, 70, 80, 73, 88, 67, 72, 75, 81)
 
-#To perform the Wilcoxon-Mann-Whitney test, we can use the wilcox.test() function in R:
+# To perform the Wilcoxon-Mann-Whitney test, 
+# we can use the wilcox.test() function in R:
 
 # Perform Wilcoxon-Mann-Whitney test
 wilcox.test(class_A, class_B)
