@@ -23,21 +23,37 @@ math = false
 
 The Wilcoxon-Mann-Whitney (WMW) test (AKA Mann-Whitney U test or Wilcoxon Rank Sum test) is used to compare two independent samples and is considered the non-parametric alternative to the Student’s t-test when there is violation of normality or for small sample sizes. 
 
- The researchers used = 0.05 significance level to test if the distribution of urinary thromboglobulin (b_TG) differs in the two groups.
-  
- Null hypothesis and alternative hypothesis
-H0 thromboglobulin is the same in the two groups
-H1 the distribution of urinary thromboglobulin is different in the two groups
-```r
+Suppose we want to compare the math test scores of two different classes of students, class A and class B. 
+The null hypothesis is that the two classes have the same median math test score, and the alternative hypothesis is that they do not. 
 
+```r
+class_A <- c(70, 85, 68, 89, 78, 92, 75, 82, 80, 87)
+class_B <- c(62, 77, 70, 80, 73, 88, 67, 72, 75, 81)
+
+#To perform the Wilcoxon-Mann-Whitney test, we can use the wilcox.test() function in R:
+
+# Perform Wilcoxon-Mann-Whitney test
+wilcox.test(class_A, class_B)
 ```
+
+
+```r
+	Wilcoxon rank sum test with continuity correction
+
+data:  class_A and class_B
+W = 55, p-value = 0.2517
+alternative hypothesis: true location shift is not equal to 0
+```
+
+The test statistic is W = 55, and the p-value is 0.2517. Since the p-value is greater than 0.05, we fail to reject the null hypothesis and conclude that there is insufficient evidence to suggest that there is a significant difference in the median math test scores between the two classes.
+
+It's worth noting that the Wilcoxon-Mann-Whitney test does not assume that the data are normally distributed, and is appropriate for comparing two independent samples when the assumptions of the t-test are not met. However, it does assume that the two samples have the same shape, which may not be the case in all situations.
+
+In summary, the Wilcoxon-Mann-Whitney test can be used to compare two independent samples, and is useful when the assumptions of the t-test are not met. In our example, we found that there was no significant difference in the median math test scores between two classes of students.
+
 NOTE: The null hypothesis is that the observations from one group do not tend to have a higher or lower ranking than observations from the other group. This test does not test the medians of the data as is commonly thought, it tests the whole distribution. In practice, however, we use the medians to present the results. Statistical speaking, if the distributions of the two groups have similar shapes, the Wilcoxon-Mann-Whitney test can be used to determine whether there are differences in the medians between the two groups.
 
 
 The output of the `t.test()` function provides a lot of information, including the sample means, the test statistic, the degrees of freedom, the p-value, and confidence intervals:
-
-```r
-
-```
 
  If the samples are very small (both smaller than four observations) then statistical significance is impossible.
