@@ -3,9 +3,9 @@ date = "2021-09-03"
 lastmod = "2021-09-03"
 draft = false
 tags = ["R", "testing"]
-title = "Two sample t-test (Student’s t-test)"
+title = "Wilcoxon-Mann-Whitney (WMW) test"
 summary = """
-Two sample t-test (Student’s t-test) 
+Wilcoxon-Mann-Whitney (WMW) test to compare two independent samples 
 """
 math = false
 
