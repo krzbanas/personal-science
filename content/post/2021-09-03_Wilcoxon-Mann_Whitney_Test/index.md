@@ -53,7 +53,4 @@ In summary, the Wilcoxon-Mann-Whitney test can be used to compare two independen
 
 NOTE: The null hypothesis is that the observations from one group do not tend to have a higher or lower ranking than observations from the other group. This test does not test the medians of the data as is commonly thought, it tests the whole distribution. In practice, however, we use the medians to present the results. Statistical speaking, if the distributions of the two groups have similar shapes, the Wilcoxon-Mann-Whitney test can be used to determine whether there are differences in the medians between the two groups.
 
-
-The output of the `t.test()` function provides a lot of information, including the sample means, the test statistic, the degrees of freedom, the p-value, and confidence intervals:
-
- If the samples are very small (both smaller than four observations) then statistical significance is impossible.
+If the samples are very small (both smaller than four observations) then statistical significance is impossible.
