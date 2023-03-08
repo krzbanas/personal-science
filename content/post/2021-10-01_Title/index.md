@@ -56,4 +56,6 @@ mean of the differences
 
 ```
 
+Interpretation:
 
+In this example, we have two related measurements (before and after). We want to know if there is a significant difference in the means of these measurements. We perform a paired t-test using the `t.test()` function in R, specifying `paired = TRUE`. The output shows the t-statistic, degrees of freedom, and p-value. The p-value is 0.02905, which is less than the commonly used significance level of 0.05. Therefore, we can conclude that there is a significant difference in the means of the two measurements. The sample mean of the differences is -1.9, which means that the after measurement tends to be higher than the before measurement by about 1.9 units on average. The 95% confidence interval for the mean difference is (-3.41, -0.39), which means we are 95% confident that the true mean difference falls within this range.
