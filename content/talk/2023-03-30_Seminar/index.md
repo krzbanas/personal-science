@@ -21,7 +21,7 @@ projects = [ ]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "talk/2021-02-24_2D_Correlation/20210224_SSLS_Seminar.pdf"
+url_slides = "https://krzbanas.github.io/2023-03-30_SSLS_Seminar"
 url_video = ""
 url_code = ""
 
