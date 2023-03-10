@@ -3,7 +3,7 @@ date = "2021-12-03"
 lastmod = "2021-12-03"
 draft = false
 tags = ["R", "tests"]
-title = "Title"
+title = "One-way analysis of variance"
 summary = """
 Summary
 """
