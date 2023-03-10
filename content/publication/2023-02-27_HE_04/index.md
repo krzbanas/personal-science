@@ -18,7 +18,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "[https://doi.org/10.3390/molecules28052233]"
+url_source = "https://doi.org/10.3390/molecules28052233"
 math = true
 highlight = true
 [header]
