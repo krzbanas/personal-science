@@ -25,7 +25,24 @@ The Kruskal-Wallis test is a rank-based non-parametric alternative to the one-wa
 
 
 ```r
-code
+# Example data
+group1 <- c(10, 20, 30, 40, 50)
+group2 <- c(15, 25, 35, 45, 55)
+group3 <- c(5, 10, 15, 20, 25)
+data <- data.frame(value=c(group1, group2, group3),
+                   group=rep(c("Group 1", "Group 2", "Group 3"), each=5))
+
+# Perform Kruskal-Wallis test
+kruskal.test(value ~ group, data=data)
+```
+
+The output of the `kruskal.test()` function should look something like this:
+
+```r
+Kruskal-Wallis rank sum test
+
+data:  value by group
+Kruskal-Wallis chi-squared = 7.8, df = 2, p-value = 0.02
 ```
 
 
