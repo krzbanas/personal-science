@@ -45,4 +45,6 @@ data:  value by group
 Kruskal-Wallis chi-squared = 7.8, df = 2, p-value = 0.02
 ```
 
+The `Kruskal-Wallis chi-squared` value is the test statistic, and the `p-value` is the probability of observing such a test statistic under the null hypothesis that the medians of all groups are equal. In this case, we have a small `p-value` of 0.02, which suggests that we reject the null hypothesis and conclude that there is significant evidence that the medians of at least two groups are different.
 
+Therefore, we can further perform post-hoc multiple comparisons using Tukey test or Dunn's test to find out which specific groups differ significantly in medians.
