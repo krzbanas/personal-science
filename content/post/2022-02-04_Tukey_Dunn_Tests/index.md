@@ -21,9 +21,19 @@ math = false
 
 +++
 
-Text
-
+Perform Tukey test for multiple comparisons:
 
 ```r
-code
+library(multcomp)
+tukey <- glht(kruskal.test(value ~ group, data=data), linfct=mcp(group="Tukey"))
+summary(tukey)
+```
+
+Perform Dunn's test for multiple comparisons
+
+```r
+library(dunn.test)
+dunn <- dunn.test(data$value, data$group, method="holm")
+print(dunn$comparison)
+print(dunn$adjusted)
 ```
