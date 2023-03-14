@@ -30,6 +30,7 @@ group2 <- c(15, 25, 35, 45, 55)
 group3 <- c(5, 10, 15, 20, 25)
 data <- data.frame(value=c(group1, group2, group3),
                    group=rep(c("Group 1", "Group 2", "Group 3"), each=5))
+
 library(multcomp)
 tukey <- glht(kruskal.test(value ~ group, data=data), linfct=mcp(group="Tukey"))
 summary(tukey)
