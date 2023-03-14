@@ -38,7 +38,7 @@ print(dunn$comparison)
 print(dunn$adjusted)
 ```
 
-The output of the summary(tukey) function should look something like this:
+The output of the `summary(tukey)` function should look something like this:
 
 ```r
 	Tukey Contrasts
@@ -59,9 +59,17 @@ In this case, the adjusted `p-values` are all greater than 0.05, suggesting that
 
 
 
-The output of the summary(tukey) function should look something like this:
+The output of the `print(dunn$comparison)` function should look something like this:
 
 ```r
-
-
+    Comparison of x by group        
+        (Holm)          
+Levels   Group 1   Group 2  
+Group 2  0.50989   -        
+Group 3  0.99999   0.06478  
 ```
+
+The `print(dunn$comparison)` output shows the pairwise comparisons between groups, along with the Holm-adjusted `p-value` for each comparison.
+
+In this case, we can see that the pairwise comparison between Group 1 and Group 3 has an adjusted `p-value` of 0.99999, which suggests that there is no significant difference in medians between these two groups. However, the pairwise comparison between Group 2 and Group 3 has an adjusted `p-value` of 0.06478, which suggests that there is some evidence of a significant difference in medians between these two groups.
+
