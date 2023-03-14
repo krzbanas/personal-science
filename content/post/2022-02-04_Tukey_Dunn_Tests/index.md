@@ -37,3 +37,31 @@ dunn <- dunn.test(data$value, data$group, method="holm")
 print(dunn$comparison)
 print(dunn$adjusted)
 ```
+
+The output of the summary(tukey) function should look something like this:
+
+```r
+	Tukey Contrasts
+
+Fit: kruskal.test(formula = value ~ group, data = data)
+
+$group
+                  diff     lwr    upr   p adj
+Group 2-Group 1 10.00 -15.694 35.694 0.77042
+Group 3-Group 1 -7.00 -32.694 18.694 0.89234
+Group 3-Group 2 -17.00 -42.694  8.694 0.13131
+```
+
+The Tukey Contrasts output shows the pairwise differences between groups, along with the lower and upper bounds of the 95% confidence interval for each difference, and the adjusted `p-value` for each comparison.
+
+In this case, the adjusted `p-values` are all greater than 0.05, suggesting that none of the pairwise differences are statistically significant.
+
+
+
+
+The output of the summary(tukey) function should look something like this:
+
+```r
+
+
+```
