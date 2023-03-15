@@ -1,9 +1,9 @@
 +++
 date = "2022-03-04"
 lastmod = "2022-03-04"
-draft = true
-tags = ["R","tidyr","long data"]
-title = "Test"
+draft = false
+tags = ["R","Tests",]
+title = "Correlation Tests"
 summary = """
 Test
 """
@@ -25,9 +25,6 @@ Description
 
 
 ```r
-library(tidyr)
-mean_cl3 <- as.t.df(mean_clusters3)
-colnames(mean_cl3)<-c("Wavenumber", "Cl1","Cl2","Cl3")
-mean_cl3_long<-mean_cl3 %>%pivot_longer(!Wavenumber, names_to = "Cluster", values_to = "mean")
+
 ```
 
