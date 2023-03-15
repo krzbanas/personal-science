@@ -5,7 +5,7 @@ draft = false
 tags = ["R","Tests",]
 title = "Correlation Tests"
 summary = """
-Test
+Correlation Test to assess a possible association between two numeric variables, X and Y: Pearson’s coefficient
 """
 math = false
 
