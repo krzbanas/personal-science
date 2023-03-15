@@ -40,5 +40,11 @@ correlation <- cor(X, Y, method = "pearson")
 # Print the correlation coefficient
 print(correlation)
 ```
-In this example, we have created two numeric variables, X and Y, with five values each. We then use the `cor()` function to calculate the Pearson correlation coefficient between X and Y, using the `method = "pearson"` argument to specify the type of correlation coefficient we want to calculate. Finally, we print the correlation coefficient using the `print()` function.
 
+The interpretation of the correlation coefficient depends on its value:
+
+- If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable also tends to increase.
+- If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
+- If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
+
+It is also important to note that correlation **does not imply causation**. Even if two variables are strongly correlated, it does not necessarily mean that one variable causes the other.
