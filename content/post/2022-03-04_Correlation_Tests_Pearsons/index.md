@@ -27,9 +27,18 @@ There are several statistical coefficients that we can use to quantify correlati
 - Spearman’s and Kendall’s
 - Coefficient Eta
 
-
+To calculate the Pearson correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function. Here's an example code:
 
 ```r
+# Create two numeric variables, X and Y
+X <- c(5, 10, 15, 20, 25)
+Y <- c(15, 25, 35, 45, 55)
 
+# Calculate the Pearson correlation coefficient between X and Y
+correlation <- cor(X, Y, method = "pearson")
+
+# Print the correlation coefficient
+print(correlation)
 ```
+In this example, we have created two numeric variables, X and Y, with five values each. We then use the `cor()` function to calculate the Pearson correlation coefficient between X and Y, using the `method = "pearson"` argument to specify the type of correlation coefficient we want to calculate. Finally, we print the correlation coefficient using the `print()` function.
 
