@@ -20,7 +20,12 @@ math = false
   focal_point = "Smart"
 
 +++
-Description
+Correlation is a statistical method used to assess a possible association between two numeric variables, X and Y. 
+There are several statistical coefficients that we can use to quantify correlation depending on the underlying relation of the data:
+
+- Pearson’s 
+- Spearman’s and Kendall’s
+- Coefficient Eta
 
 
 
