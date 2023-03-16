@@ -3,7 +3,7 @@ date = "2022-03-04"
 lastmod = "2022-03-04"
 draft = false
 tags = ["R","Tests",]
-title = "Correlation Tests"
+title = "Correlation Tests: Pearson's coefficient"
 summary = """
 Correlation Test to assess a possible association between two numeric variables, X and Y: Pearson’s coefficient
 """
