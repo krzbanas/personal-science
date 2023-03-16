@@ -24,10 +24,10 @@ Correlation is a statistical method used to assess a possible association betwee
 There are several statistical coefficients that we can use to quantify correlation depending on the underlying relation of the data:
 
 - Pearson’s 
-- Spearman’s and Kendall’s
-- Coefficient Eta
+- Spearman’s
+- Kendall’s
 
-To calculate the Pearson correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function. Here's an example code:
+To calculate the Pearson's correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function. Here's an example code:
 
 ```r
 # Create two numeric variables, X and Y
