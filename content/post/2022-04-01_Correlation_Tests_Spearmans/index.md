@@ -42,15 +42,12 @@ correlation <- cor(X, Y, method = "spearman")
 print(correlation)
 ```
 
-The print(correlation) output will be a single value, which represents the Spearman's rank correlation coefficient between the two variables. The value ranges from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.
+The `print(correlation)` output will be a single value, which represents the Spearman's rank correlation coefficient between the two variables. The value ranges from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.
 
 The interpretation of the Spearman's rank correlation coefficient is similar to the Pearson correlation coefficient. Here's a breakdown of how to interpret different values:
+- If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable tends to increase.
+- If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
+- If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
 
-    If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable tends to increase.
-
-    If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
-
-    If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
-
-It is important to note that the Spearman's rank correlation coefficient measures the strength and direction of the monotonic relationship between the two variables, which means it measures how well the relationship can be described using a monotonic function (i.e., a function that either always increases or always decreases). It is less sensitive to outliers and does not assume a linear relationship between the variables, unlike the Pearson correlation coefficient.
+It is important to note that the Spearman's rank correlation coefficient measures the strength and direction of the **monotonic relationship** between the two variables, which means it measures how well the relationship can be described using a monotonic function (i.e., a function that either always increases or always decreases). It is less sensitive to outliers and does not assume a linear relationship between the variables, unlike the Pearson correlation coefficient.
 
