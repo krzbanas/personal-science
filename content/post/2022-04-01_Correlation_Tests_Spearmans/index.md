@@ -28,25 +28,29 @@ There are several statistical coefficients that we can use to quantify correlati
 - Kendall’s
 
 
-To calculate the  Spearman’s  correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function. Here's an example code:
+To calculate the Spearman's rank correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function with the `method = "spearman"` argument. Here's an example code:
 
 ```r
 # Create two numeric variables, X and Y
 X <- c(5, 10, 15, 20, 25)
 Y <- c(15, 25, 35, 45, 55)
 
-# Calculate the Pearson correlation coefficient between X and Y
-correlation <- cor(X, Y, method = "pearson")
+# Calculate the Spearman's rank correlation coefficient between X and Y
+correlation <- cor(X, Y, method = "spearman")
 
 # Print the correlation coefficient
 print(correlation)
 ```
 
-The interpretation of the correlation coefficient depends on its value:
+The print(correlation) output will be a single value, which represents the Spearman's rank correlation coefficient between the two variables. The value ranges from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.
 
-- If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable also tends to increase.
-- If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
-- If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
+The interpretation of the Spearman's rank correlation coefficient is similar to the Pearson correlation coefficient. Here's a breakdown of how to interpret different values:
 
-It is also important to note that correlation **does not imply causation**. Even if two variables are strongly correlated, it does not necessarily mean that one variable causes the other.
+    If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable tends to increase.
+
+    If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
+
+    If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
+
+It is important to note that the Spearman's rank correlation coefficient measures the strength and direction of the monotonic relationship between the two variables, which means it measures how well the relationship can be described using a monotonic function (i.e., a function that either always increases or always decreases). It is less sensitive to outliers and does not assume a linear relationship between the variables, unlike the Pearson correlation coefficient.
 
