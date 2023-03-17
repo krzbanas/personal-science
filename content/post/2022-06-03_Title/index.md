@@ -42,5 +42,14 @@ correlation <- cor(X, Y, method = "kendall")
 print(correlation)
 ```
 
-In this example, we have created two numeric variables, X and Y, with five values each. We then use the `cor()` function to calculate Kendall's correlation coefficient between X and Y, using the `method = "kendall`" argument to specify the type of correlation coefficient we want to calculate. Finally, we print the correlation coefficient using the `print()` function.
+In this example, we have created two numeric variables, X and Y, with five values each. We then use the `cor()` function to calculate Kendall's correlation coefficient between X and Y, using the `method = "kendall"` argument to specify the type of correlation coefficient we want to calculate. Finally, we print the correlation coefficient using the `print()` function.
 
+The `print(correlation)` output will be a single value, which represents the Kendall's correlation coefficient between the two variables. The value ranges from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.
+
+The interpretation of Kendall's correlation coefficient is similar to that of the other two correlation coefficients. Here's a breakdown of how to interpret different values:
+
+ - If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable tends to increase.
+ - If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
+ - If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
+
+Kendall's correlation coefficient is also a non-parametric measure of correlation, meaning it does not assume any particular distribution for the data. It is a measure of the strength and direction of the monotonic relationship between the two variables, which means it measures how well the relationship can be described using a monotonic function (i.e., a function that either always increases or always decreases). Kendall's correlation coefficient is similar to Spearman's rank correlation coefficient in this respect, but is a bit **more computationally efficient**.
