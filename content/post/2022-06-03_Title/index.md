@@ -28,27 +28,19 @@ There are several statistical coefficients that we can use to quantify correlati
 - Kendall’s
 
 
-To calculate the Spearman's rank correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function with the `method = "spearman"` argument. Here's an example code:
+To calculate Kendall's correlation coefficient between two numeric variables, X and Y, in R, you can use the `cor()` function with the `method = "kendall"` argument. Here's an example code:
 
 ```r
 # Create two numeric variables, X and Y
 X <- c(5, 10, 15, 20, 25)
 Y <- c(15, 25, 35, 45, 55)
 
-# Calculate the Spearman's rank correlation coefficient between X and Y
-correlation <- cor(X, Y, method = "spearman")
+# Calculate Kendall's correlation coefficient between X and Y
+correlation <- cor(X, Y, method = "kendall")
 
 # Print the correlation coefficient
 print(correlation)
 ```
 
-The `print(correlation)` output will be a single value, which represents the Spearman's rank correlation coefficient between the two variables. The value ranges from -1 to 1, where -1 indicates a perfect negative correlation, 0 indicates no correlation, and 1 indicates a perfect positive correlation.
-
-The interpretation of the Spearman's rank correlation coefficient is similar to the Pearson correlation coefficient. Here's a breakdown of how to interpret different values:
-
-- If the correlation coefficient is close to 1, it indicates a strong positive correlation between the two variables, meaning that when one variable increases, the other variable tends to increase.
-- If the correlation coefficient is close to -1, it indicates a strong negative correlation between the two variables, meaning that when one variable increases, the other variable tends to decrease.
-- If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
-
-It is important to note that the Spearman's rank correlation coefficient measures the strength and direction of the **monotonic relationship** between the two variables, which means it measures how well the relationship can be described using a monotonic function (i.e., a function that either always increases or always decreases). It is less sensitive to outliers and does not assume a linear relationship between the variables, unlike the Pearson correlation coefficient.
+In this example, we have created two numeric variables, X and Y, with five values each. We then use the `cor()` function to calculate Kendall's correlation coefficient between X and Y, using the `method = "kendall`" argument to specify the type of correlation coefficient we want to calculate. Finally, we print the correlation coefficient using the `print()` function.
 
