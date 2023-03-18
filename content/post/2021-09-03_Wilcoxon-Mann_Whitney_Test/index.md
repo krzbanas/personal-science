@@ -2,7 +2,7 @@
 date = "2021-09-03"
 lastmod = "2021-09-03"
 draft = false
-tags = ["R", "testing"]
+tags = ["R", "Tests"]
 title = "Wilcoxon-Mann-Whitney (WMW) test"
 summary = """
 Wilcoxon-Mann-Whitney (WMW) test to compare two independent samples 
