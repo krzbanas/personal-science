@@ -2,7 +2,7 @@
 date = "2021-08-06"
 lastmod = "2021-08-06"
 draft = false
-tags = ["R", "testing"]
+tags = ["R", "Tests"]
 title = "Two sample t-test (Student’s t-test)"
 summary = """
 Two sample t-test (Student’s t-test) 
