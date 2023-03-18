@@ -2,7 +2,7 @@
 date = "2021-11-05"
 lastmod = "2021-11-05"
 draft = false
-tags = ["R", "tests"]
+tags = ["R", "Tests"]
 title = "Wilcoxon Signed-Rank test"
 summary = """
 Wilcoxon Signed-Rank test (Wilcoxon test): a non-parametric test that can be conducted to compare paired samples when the differences are not normally distributed
