@@ -2,7 +2,7 @@
 date = "2021-07-02"
 lastmod = "2021-07-02"
 draft = false
-tags = ["R", "ggstatplot"]
+tags = ["R", "ggstatplot", "Tests"]
 title = "Equality of medians with violin plot"
 summary = """
 Test the equality of two groups medians and plots violin plot using ggstatsplot library with data points jittered
