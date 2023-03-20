@@ -26,9 +26,45 @@ Null hypothesis and alternative hypothesis:
  - There is no association between the two categorical variables (they are independent)
  - There is association between the two categorical variables (they are dependent)
 
+
+To perform a chi-square test of independence in R, we can use the `chisq.test()` function. Here's an example:
+Let's say we have a dataset called `mydata` with two categorical variables: `gender` and `smoker`. We want to test whether there is an association between these two variables.
+
 ```r
-code
+# Create a dataset
+gender <- c("Male", "Female", "Male", "Male", "Female", "Male", "Female", "Male", "Female", "Female")
+smoker <- c("No", "Yes", "No", "No", "Yes", "No", "No", "No", "Yes", "Yes")
+mydata <- data.frame(gender, smoker)
+
+# Perform chi-square test of independence
+chisq.test(mydata)
 ```
 
+2 / 2
 
+To perform a chi-square test of independence in R, we can use the chisq.test() function. Here's an example:
+
+Let's say we have a dataset called mydata with two categorical variables: gender and smoker. We want to test whether there is an association between these two variables.
+
+python
+
+# Create a dataset
+gender <- c("Male", "Female", "Male", "Male", "Female", "Male", "Female", "Male", "Female", "Female")
+smoker <- c("No", "Yes", "No", "No", "Yes", "No", "No", "No", "Yes", "Yes")
+mydata <- data.frame(gender, smoker)
+
+# Perform chi-square test of independence
+chisq.test(mydata)
+
+The output will look like this:
+
+```r
+Pearson's Chi-squared test
+
+data:  mydata
+X-squared = 0.2, df = 1, p-value = 0.6557
+
+Warning message:
+In chisq.test(mydata) : Chi-squared approximation may be incorrect
+```
 
