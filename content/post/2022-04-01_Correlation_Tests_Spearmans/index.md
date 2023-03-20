@@ -2,7 +2,7 @@
 date = "2022-04-01"
 lastmod = "2022-04-01"
 draft = false
-tags = ["R","Tests",]
+tags = ["R","Tests"]
 title = "Correlation Tests: Spearmans"
 summary = """
 Correlation Test to assess a possible association between two numeric variables, X and Y: Spearman’s coefficient
