@@ -40,22 +40,6 @@ mydata <- data.frame(gender, smoker)
 chisq.test(mydata)
 ```
 
-2 / 2
-
-To perform a chi-square test of independence in R, we can use the chisq.test() function. Here's an example:
-
-Let's say we have a dataset called mydata with two categorical variables: gender and smoker. We want to test whether there is an association between these two variables.
-
-python
-
-# Create a dataset
-gender <- c("Male", "Female", "Male", "Male", "Female", "Male", "Female", "Male", "Female", "Female")
-smoker <- c("No", "Yes", "No", "No", "Yes", "No", "No", "No", "Yes", "Yes")
-mydata <- data.frame(gender, smoker)
-
-# Perform chi-square test of independence
-chisq.test(mydata)
-
 The output will look like this:
 
 ```r
@@ -68,3 +52,6 @@ Warning message:
 In chisq.test(mydata) : Chi-squared approximation may be incorrect
 ```
 
+The output shows the test statistic (`X-squared`), the degrees of freedom (`df`), and the `p-value`. The null hypothesis is that there is no association between the two variables, and the alternative hypothesis is that there is an association between the two variables. The p-value tells us whether to reject or fail to reject the null hypothesis.
+
+In this example, the `p-value` is 0.6557, which is greater than the significance level of 0.05. Therefore, we fail to reject the null hypothesis and conclude that there is no evidence of an association between gender and smoker. However, we also see a warning message that the chi-squared approximation may be incorrect due to low expected cell counts, so we should interpret the results with caution.
