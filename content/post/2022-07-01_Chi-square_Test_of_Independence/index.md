@@ -32,8 +32,10 @@ Let's say we have a dataset called `mydata` with two categorical variables: `gen
 
 ```r
 # Create a dataset
-gender <- c("Male", "Female", "Male", "Male", "Female", "Male", "Female", "Male", "Female", "Female")
-smoker <- c("No", "Yes", "No", "No", "Yes", "No", "No", "No", "Yes", "Yes")
+gender <- c("Male", "Female", "Male", "Male", "Female",
+          "Male", "Female", "Male", "Female", "Female")
+smoker <- c("No", "Yes", "No", "No", "Yes",
+            "No", "No", "No", "Yes", "Yes")
 mydata <- data.frame(gender, smoker)
 
 # Perform chi-square test of independence
