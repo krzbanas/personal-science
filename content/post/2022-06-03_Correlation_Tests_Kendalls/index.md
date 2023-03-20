@@ -53,5 +53,3 @@ The interpretation of Kendall's correlation coefficient is similar to that of th
  - If the correlation coefficient is close to 0, it indicates no or weak correlation between the two variables, meaning that there is no clear relationship between them.
 
 Kendall's correlation coefficient is also a non-parametric measure of correlation, meaning it does not assume any particular distribution for the data. It is a measure of the strength and direction of the monotonic relationship between the two variables, which means it measures how well the relationship can be described using a monotonic function (i.e., a function that either always increases or always decreases). Kendall's correlation coefficient is similar to Spearman's rank correlation coefficient in this respect, but is a bit **more computationally efficient**.
-
-
