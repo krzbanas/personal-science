@@ -50,4 +50,8 @@ data:  data
 p-value = 0.3466
 alternative hypothesis: two.sided
 ```
+The output includes the `p-value` of the test, which is 0.3466 in this case. The null hypothesis for Fisher's exact test is that there is no association between the two categorical variables, while the alternative hypothesis is that there is an association.
 
+In this case, since the `p-value` is greater than 0.05 (i.e., the commonly used significance level), we fail to reject the null hypothesis. This means that there is no statistically significant association between `"Sex"` and `"Smoke"` in our sample.
+
+In summary, Fisher's exact test is a useful tool for comparing the relationship between two categorical variables in a contingency table. The `p-value` produced by the test can be used to determine whether there is a statistically significant association between the variables, and the interpretation of the `p-value` depends on the chosen significance level.
