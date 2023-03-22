@@ -39,10 +39,18 @@ Before  After
 10  Negative    Negative
 ```
 
+The first column represents the results of the test before treatment, and the second column represents the results after treatment. The values in each column are either `"Positive"` or `"Negative"`. We want to test whether the treatment has had a significant effect on the results of the test.
 
+To perform McNemar's test, we can use the `mcnemar.test()` function in R. Here's the code:
 
 ```r
-Before  After
+# Read in the data
+data <- read.csv("test_data.csv")
 
+# Convert the data to a 2x2 contingency table
+table <- table(data$Before, data$After)
+
+# Perform McNemar's test
+mcnemar.test(table)
 ```
 
