@@ -65,4 +65,4 @@ McNemar's chi-squared = 0.6, df = 1, p-value = 0.4387
 
 The `p-value` is 0.4387, which is greater than 0.05, the commonly used significance level. Therefore, we cannot reject the null hypothesis that the treatment has no effect on the results of the test.
 
-To interpret this result, we can say that there is no significant evidence to suggest that the treatment has had a significant effect on the results of the test. However, it's worth noting that this is just one example and the interpretation may differ based on the context and specific hypotheses being tested.
+To interpret this result, we can say that there is no significant evidence to suggest that the treatment has had a significant effect on the results of the test.
