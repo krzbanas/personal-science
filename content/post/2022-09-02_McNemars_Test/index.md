@@ -23,9 +23,26 @@ math = false
 
 The McNemar’s test (also known as the paired or matched chi-square) is used to determine if there are differences on a dichotomous dependent variable between two related groups. It can be considered to be similar to the paired-samples t-test, but for a dichotomous rather than a continuous dependent variable. The McNemar’s test is used to analyze pretest-posttest study designs (observing categorical outcomes more than once in the same patient), as well as being commonly employed in analyzing matched pairs and case-control studies.
 
+Suppose we have a dataset containing the results of a medical test for a certain disease, where the test was administered to the same group of patients before and after a treatment. The data is in the following format:
 
 ```r
-code
+Before  After
+1   Positive    Positive
+2   Positive    Negative
+3   Negative    Negative
+4   Positive    Positive
+5   Negative    Negative
+6   Positive    Negative
+7   Negative    Negative
+8   Positive    Positive
+9   Positive    Positive
+10  Negative    Negative
 ```
 
+
+
+```r
+Before  After
+
+```
 
