@@ -22,7 +22,7 @@ math = false
 +++
 
 How to remove some columns in tidyr and change the order of columns?
-You can use the select() function from the dplyr package (also part of the tidyverse) to select specific columns and change their order. Here's an example:
+You can use the `select()` function from the `dplyr` package (also part of the `tidyverse`) to select specific columns and change their order. Here's an example:
 
 
 ```r
@@ -53,6 +53,6 @@ data %>%
   select(event, date, participants)
 ```
 
-This code selects the date, participants, and event columns from the data dataframe and reorders them in that order using select(). You can remove columns using the drop() function or the negative sign (-) to exclude them. You can also use column names or positions to select columns, as shown in the commented-out examples.
+This code selects the date, participants, and event columns from the data dataframe and reorders them in that order using `select()`. You can remove columns using the `drop()` function or the negative sign `(-)` to exclude them. You can also use column names or positions to select columns, as shown in the commented-out examples.
 
-Note that you can chain multiple select() functions to perform multiple selections and reorderings.
+Note that you can chain multiple `select()` functions to perform multiple selections and reorderings.
