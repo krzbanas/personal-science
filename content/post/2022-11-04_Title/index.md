@@ -2,10 +2,10 @@
 date = "2022-11-04"
 lastmod = "2022-11-04"
 draft = false
-tags = ["R", "tests"]
-title = "Title"
+tags = ["R", "filter"]
+title = "Unique rows based on more than one variable"
 summary = """
-Summary
+Find the number of unique rows based on more than one variable in the data frame.
 """
 math = false
 
