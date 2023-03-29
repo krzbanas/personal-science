@@ -32,3 +32,4 @@ n_unique_rows <- nrow(unique_rows)
 The `duplicated()` function returns a logical vector indicating which rows are duplicates based on the specified columns. The `!` operator is used to negate the logical vector, so that `TRUE` values become `FALSE` and *vice versa*. When this logical vector is used to index the data frame using the operator, only the unique rows are returned. Finally, the `nrow()` function is used to count the number of unique rows.
 
 Note that the order of the columns in the `c()` function is important, as the function will consider duplicates based on the order of the columns specified.
+
