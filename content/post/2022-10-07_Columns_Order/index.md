@@ -3,7 +3,7 @@ date = "2022-10-07"
 lastmod = "2022-10-07"
 draft = false
 tags = ["R", "Tidyr"]
-title = "Title"
+title = "Order of the Columns"
 summary = """
 Summary
 """
