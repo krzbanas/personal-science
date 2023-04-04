@@ -74,4 +74,4 @@ Run the application
 shinyApp(ui = ui, server = server)
 ```
 
-In this application, the user is prompted to select a CSV file with spectra in the rows. Once a file is selected, the application reads the data and updates the checkbox options with the names of the spectra columns. The user can select one or more spectra to plot and click the "Plot Spectra" button to generate the plot. The plot is rendered using ggplot2, with the x-axis set to the first column of the data (presumably wavelength or frequency) and the y-axis set to the selected spectra columns.
+In this application, the user is prompted to select a CSV file with spectra in the rows. Once a file is selected, the application reads the data and updates the checkbox options with the names of the spectra columns. The user can select one or more spectra to plot and click the `Plot Spectra` button to generate the plot. The plot is rendered using `ggplot2`, with the x-axis set to the first column of the data (presumably wavelength or frequency) and the y-axis set to the selected spectra columns.
