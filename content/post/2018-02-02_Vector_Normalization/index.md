@@ -2,7 +2,7 @@
 date = "2018-02-02"
 lastmod = "2018-02-02"
 draft = false
-tags = ["R", "hyperspec", "normalization"]
+tags = ["R", "hyperSpec", "Normalization"]
 title = "Vector Normalization"
 summary = """
 Vector normalization of all spectra
