@@ -2,7 +2,7 @@
 date = "2017-12-01"
 lastmod = "2017-12-01"
 draft = false
-tags = ["R", "integration", "derivatives", "calculations"]
+tags = ["R", "Integration", "Derivatives", "Calculations"]
 title = "Numerical integration in R"
 summary = """
 Numerical integration for FTIR spectra in R
