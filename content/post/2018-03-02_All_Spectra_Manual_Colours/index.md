@@ -2,7 +2,7 @@
 date = "2018-03-02"
 lastmod = "2018-03-02"
 draft = false
-tags = ["R", "hyperspec", "palette"]
+tags = ["R", "hyperSpec", "Palette"]
 title = "All Spectra with manual colours"
 summary = """
 Ploting all spectra from one hyperSpec object with colours set manually
