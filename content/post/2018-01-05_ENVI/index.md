@@ -2,7 +2,7 @@
 date = "2018-01-05"
 lastmod = "2018-01-05"
 draft = false
-tags = ["R", "hyperSpec", "Import", "Opus", "ENVI"]
+tags = ["R", "hyperSpec", "import", "Opus", "ENVI"]
 title = "Import ENVI file to R"
 summary = """
 Import ENVI file (exported chemical map from Bruker Opus) to hyperSpec object
