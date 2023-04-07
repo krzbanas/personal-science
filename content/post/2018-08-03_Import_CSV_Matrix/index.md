@@ -2,7 +2,7 @@
 date = "2018-08-03"
 lastmod = "2018-08-03"
 draft = false
-tags = ["R", "hyperspec", "Import", "csv"]
+tags = ["R", "hyperSpec", "import", "csv"]
 title = "Import spectra from text matrix"
 summary = """
 Import csv matrix with wavenumbers in the first column
