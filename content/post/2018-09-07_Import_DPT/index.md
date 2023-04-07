@@ -2,7 +2,7 @@
 date = "2018-09-07"
 lastmod = "2018-09-07"
 draft = false
-tags = ["R", "hyperspec", "Import", "Opus", "dpt"]
+tags = ["R", "hyperSpec", "import", "Opus", "dpt"]
 title = "Import DPT  Opus (FTIR Imaging) FPA"
 summary = """
 Import DPT (data point table) Opus (FTIR Imaging) FPA
