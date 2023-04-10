@@ -2,7 +2,7 @@
 date = "2018-12-07"
 lastmod = "2018-12-07"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperSpec"]
 title = "Subset data.frame with subset command"
 summary = """
 Using subset command to subset data.frame
