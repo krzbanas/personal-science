@@ -2,7 +2,7 @@
 date = "2018-11-02"
 lastmod = "2018-11-02"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperSpec"]
 title = "Group names extracted from filenames"
 summary = """
 Group names extracted from filenames as factors
