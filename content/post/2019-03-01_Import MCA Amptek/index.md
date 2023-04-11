@@ -2,7 +2,7 @@
 date = "2019-03-01"
 lastmod = "2019-03-01"
 draft = false
-tags = ["R", "hyperspec", "MCA", "XRF"]
+tags = ["R", "hyperSpec", "MCA", "XRF"]
 title = "Import MCA data from Amptek detector (SRIXE)"
 summary = """
 Function to import MCA data to R Environment
