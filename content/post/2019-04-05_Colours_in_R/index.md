@@ -2,7 +2,7 @@
 date = "2019-04-05"
 lastmod = "2019-03-05"
 draft = false
-tags = ["R", "hyperspec", "colours"]
+tags = ["R", "hyperSpec", "colours"]
 title = "Define your own colours in R part 1"
 summary = """
 Define your own colours in R part 1
