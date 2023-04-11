@@ -2,7 +2,7 @@
 date = "2019-02-01"
 lastmod = "2019-02-01"
 draft = false
-tags = ["R", "hyperspec"]
+tags = ["R", "hyperSpec"]
 title = "Hierarchical Cluster Analysis of Spectra in R"
 summary = """
 Hierarchical Cluster Analysis of Spectra in R
