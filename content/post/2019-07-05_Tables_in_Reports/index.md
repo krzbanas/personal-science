@@ -2,7 +2,7 @@
 date = "2019-07-05"
 lastmod = "2019-07-05"
 draft = false
-tags = ["R", "knitr", "tables", "reports"]
+tags = ["R", "knitr", "tables", "reports", "pander", "xtable"]
 title = "Packages to print tables in reports"
 summary = """
 knitr, pander and xtable
