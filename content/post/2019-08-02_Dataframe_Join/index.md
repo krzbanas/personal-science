@@ -3,7 +3,7 @@
 date = "2019-08-02"
 lastmod = "2019-08-02"
 draft = false
-tags = ["R", "dataframe", "join"]
+tags = ["R", "dataframe", "join", "plyr", "dplyr"]
 title = "Join multiple dataframes and calculate ratios"
 summary = """
 Combining multiple dataframes into one and calculating new variables
