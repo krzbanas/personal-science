@@ -2,7 +2,7 @@
 date = "2019-11-01"
 lastmod = "2019-11-01"
 draft = false
-tags = ["R", "hyperspec", "ggplot2", "plot", "colours"]
+tags = ["R", "hyperSpec", "ggplot2", "plot", "colours"]
 title = "Ploting FTIR spectrum with ggplot2 - clean theme"
 summary = """
 ggplot2 - setting clean theme for spectra plot
