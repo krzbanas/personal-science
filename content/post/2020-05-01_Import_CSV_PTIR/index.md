@@ -2,7 +2,7 @@
 date = "2020-05-01"
 lastmod = "2020-05-01"
 draft = false
-tags = ["R", "hyperspec", "import", "o-PTIR"]
+tags = ["R", "hyperSpec", "import", "o-PTIR"]
 title = "Import csv matrix from PTIR Studio"
 summary = """
 Method for importing to R csv matrix from mIRage device
