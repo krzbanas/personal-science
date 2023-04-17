@@ -2,7 +2,7 @@
 date = "2020-02-07"
 lastmod = "2020-02-07"
 draft = false
-tags = ["R", "hyperspec", "animate"]
+tags = ["R", "hyperSpec", "animate","animation"]
 title = "Animate spectra from csv file"
 summary = """
 Preparing animated gif showing sequence of spectra from subsequent columns
