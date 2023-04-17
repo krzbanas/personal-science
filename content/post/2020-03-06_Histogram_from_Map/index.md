@@ -2,7 +2,7 @@
 date = "2020-03-06"
 lastmod = "2020-03-06"
 draft = false
-tags = ["R", "hyperspec", "histogram"]
+tags = ["R", "hyperSpec", "histogram"]
 title = "Histogram from the map"
 summary = """
 Calculating and ploting the histogram of the pixel values extracted from the map. Works for intensites, integrals, ratioes, shifts, etc.
