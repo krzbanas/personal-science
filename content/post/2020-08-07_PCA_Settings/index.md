@@ -3,7 +3,7 @@
 date = "2020-08-07"
 lastmod = "2020-08-07"
 draft = false
-tags = ["R", "PCA"]
+tags = ["R", "PCA","FactoMineR","PCAtools","ade4"]
 title = "Functions and default settings for PCA in R"
 summary = """
 Functions and default settings for PCA in R
