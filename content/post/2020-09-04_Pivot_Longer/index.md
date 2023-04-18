@@ -2,7 +2,7 @@
 date = "2020-09-04"
 lastmod = "2020-09-04"
 draft = false
-tags = ["R","tidyr","long data"]
+tags = ["R","tidyr","long data","wide data"]
 title = "Convert wide to long with the function pivot_longer (library tidyr)"
 summary = """
 Convert wide to long with the function pivot_longer (library tidyr)
