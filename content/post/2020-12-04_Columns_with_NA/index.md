@@ -2,7 +2,7 @@
 date = "2020-12-04"
 lastmod = "2020-12-04"
 draft = false
-tags = ["R", "NA", "incomplete observations"]
+tags = ["R", "NA", "incomplete observations","imputation"]
 title = "Find columns that include missing values (NA)"
 summary = """
 find which columns in an R data frame include missing values (NA)
