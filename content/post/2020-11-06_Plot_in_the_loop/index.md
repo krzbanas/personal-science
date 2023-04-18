@@ -2,7 +2,7 @@
 date = "2020-11-06"
 lastmod = "2020-11-06"
 draft = false
-tags = ["R", "plot", "loop"]
+tags = ["R", "plot", "loop", "automatation"]
 title = "Ploting in the loop"
 summary = """
 Summary
