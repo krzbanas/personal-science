@@ -2,7 +2,7 @@
 date = "2021-02-05"
 lastmod = "2021-02-05"
 draft = false
-tags = ["R"]
+tags = ["R","tidyverse", "factors"]
 title = "Recode the factors with tidyverse"
 summary = """
 How recode the factors in R to give them modified names and order with tidyverse
