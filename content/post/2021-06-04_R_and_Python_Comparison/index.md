@@ -51,6 +51,7 @@ ggplot(spectrum_normalized, aes(wavelength, intensity)) +
   scale_y_continuous(name = "Intensity (a.u.)") +
   theme_minimal()
 ```
+
 In Python:
 
 ```python
