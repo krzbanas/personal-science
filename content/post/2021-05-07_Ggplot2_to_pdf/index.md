@@ -2,7 +2,7 @@
 date = "2021-05-07"
 lastmod = "2021-05-07"
 draft = false
-tags = ["R"]
+tags = ["R","ggplot2", "export", "pdf", "patchwork"]
 title = "How to save ggplot2 plot to pdf with high resolution?"
 summary = """
 Save ggplot2 to pdf
