@@ -2,7 +2,7 @@
 date = "2021-10-01"
 lastmod = "2021-10-01"
 draft = false
-tags = ["R", "Tests"]
+tags = ["R", "tests"]
 title = "A paired t-test"
 summary = """
 A paired t-test is used to estimate whether the means of two related measurements are significantly different from one another
