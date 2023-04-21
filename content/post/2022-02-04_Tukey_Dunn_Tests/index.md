@@ -2,7 +2,7 @@
 date = "2022-02-04"
 lastmod = "2022-12-04"
 draft = false
-tags = ["R", "Tests"]
+tags = ["R", "tests"]
 title = "Post-hoc multiple comparisons using Tukey test and Dunn's test"
 summary = """
 Post-hoc multiple comparisons using Tukey test and Dunn's test in R
