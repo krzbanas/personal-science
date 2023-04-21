@@ -2,7 +2,7 @@
 date = "2022-01-07"
 lastmod = "2022-01-07"
 draft = false
-tags = ["R", "Tests"]
+tags = ["R", "tests"]
 title = "Kruskal-Wallis test"
 summary = """
 The Kruskal-Wallis test is a rank-based non-parametric alternative to the one-way ANOVA and an extension of the Wilcoxon-Mann-Whitney test to allow the comparison of more than two independent groups.
