@@ -57,4 +57,3 @@ The ANOVA table shows two sources of variation in the data: the variation betwee
 The `p-value` for the `cyl` variable is less than 0.05, which indicates that there is a significant difference in mean `mpg` across different values of `cyl`. Therefore, we can reject the null hypothesis that there is no difference in mean `mpg` across different values of `cyl`.
 
 The R output also includes a `Sum Sq` column, which represents the sum of squares for each source of variation, and a `Mean Sq` column, which represents the mean sum of squares for each source of variation. The `Residuals` row represents the remaining unexplained variation after accounting for the effect of `cyl`.
-
