@@ -2,7 +2,7 @@
 date = "2022-05-06"
 lastmod = "2018-02-02"
 draft = false
-tags = ["R", "pivot"]
+tags = ["R", "pivot", "dplyr", "tidyr"]
 title = "Pivot Table"
 summary = """
 Pivot Table
