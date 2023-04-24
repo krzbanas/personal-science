@@ -2,7 +2,7 @@
 date = "2022-06-03"
 lastmod = "2022-06-03"
 draft = false
-tags = ["R","Tests"]
+tags = ["R","tests"]
 title = "Correlation Tests: Kendall’s"
 summary = """
 Correlation Test to assess a possible association between two numeric variables, X and Y: Kendall’s coefficient
