@@ -2,7 +2,7 @@
 date = "2022-09-02"
 lastmod = "2022-09-02"
 draft = false
-tags = ["R", "Tests"]
+tags = ["R", "tests"]
 title = "McNemar’s test "
 summary = """
 Summary
