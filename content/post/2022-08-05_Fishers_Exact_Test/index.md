@@ -2,7 +2,7 @@
 date = "2022-08-05"
 lastmod = "2022-08-05"
 draft = false
-tags = ["R", "Tests"]
+tags = ["R", "tests"]
 title = "Fisher’s exact test"
 summary = """
 Fisher’s exact test
