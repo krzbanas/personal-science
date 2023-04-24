@@ -2,7 +2,7 @@
 date = "2022-07-01"
 lastmod = "2022-07-01"
 draft = false
-tags = ["R", "Tests"]
+tags = ["R", "tests"]
 title = "Chi-square test of independence"
 summary = """
 Chi-square test of independence to check if there’s an association between two categorical variables
