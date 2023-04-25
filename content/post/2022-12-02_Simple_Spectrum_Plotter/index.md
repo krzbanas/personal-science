@@ -2,7 +2,7 @@
 date = "2022-12-02"
 lastmod = "2022-12-02"
 draft = false
-tags = ["R", "Shiny"]
+tags = ["R", "shiny"]
 title = "Simple Spectrum Plotter"
 summary = """
 Summary
