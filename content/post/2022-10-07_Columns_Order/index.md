@@ -2,7 +2,7 @@
 date = "2022-10-07"
 lastmod = "2022-10-07"
 draft = false
-tags = ["R", "Tidyr"]
+tags = ["R", "tidyr", "dplyr"]
 title = "Order of the Columns"
 summary = """
 Summary
