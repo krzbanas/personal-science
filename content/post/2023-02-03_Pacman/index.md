@@ -2,10 +2,10 @@
 date = "2023-02-03"
 lastmod = "2023-02-03"
 draft = false
-tags = ["R", "packman"]
+tags = ["R", "pacman"]
 title = "Hidden R gems: package packman"
 summary = """
-pacman: Tired of typing install.packages() for each new package you need? pacman is here to save the day! It's a Swiss Army knife for package management, making installing, loading, and updating packages a breeze!
+pacman: Tired of typing `install.packages()` for each new package you need? pacman is here to save the day! It's a Swiss Army knife for package management, making installing, loading, and updating packages a breeze!
 """
 math = false
 
