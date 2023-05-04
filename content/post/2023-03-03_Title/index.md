@@ -26,18 +26,21 @@ math = false
 At the moment this package contains these RStudio addins that paste data to the cursor:
 
 `tribble_paste` which pastes a table as a nicely formatted call to `tibble::tribble()`
-Recommend Ctrl + Shift + t as shortcut.
-Table can be delimited with tab, comma, pipe or semicolon.
+Recommend Ctrl + Shift + t as shortcut. Table can be delimited with tab, comma, pipe or semicolon.
+
 `vector_paste` which will paste delimited data as a vector definition, e.g. c("a", "b") etc.
 Recommend Ctrl + Alt + Shift + v as shortcut.
+
 `vector_paste_vertical` which will paste delimited data as a vertically formatted vector definition.
 Recommend Ctrl + Shift + v as shortcut
+
 example output:
 c("Mint",
   "Fedora",
   "Debian",
   "Ubuntu",
   "OpenSUSE")
+ 
  `df_paste` which pastes a table on the clipboard as a standard data.frame definition rather than a tribble call. This has certain advantages in the context of reproducible examples and educational posts. Many thanks to Jonathan Carroll for getting this rolling and coding the bulk of the feature.
 Recommend Ctrl + Alt + Shift + d as shortcut.
 `dt_paste` which is the same as `df_paste`, but for data.table.
