@@ -2,7 +2,7 @@
 date = "2023-04-07"
 lastmod = "2023-04-07"
 draft = false
-tags = ["R", "janitor"]
+tags = ["R", "janitor", "cleaning"]
 title = "Hidden R gems: package janitor"
 summary = """
 janitor: Data cleaning made easy! janitor helps you clean up messy data in a flash, with functions to remove special characters, whitespace, and more. Say hello to tidy data!
@@ -32,5 +32,3 @@ The main `janitor` functions:
 The tabulate-and-report functions approximate popular features of SPSS and Microsoft Excel.
 
 `janitor` is a #tidyverse-oriented package. Specifically, it plays nicely with the %>% pipe and is optimized for cleaning data brought in with the `readr` and `readxl` packages.
-
-
