@@ -2,7 +2,7 @@
 date = "2023-03-03"
 lastmod = "2023-03-03"
 draft = false
-tags = ["R", "datapasta"]
+tags = ["R", "datapasta", "paste"]
 title = "Hidden R gems: package packman"
 summary = """
 datapasta: Copy-pasting data just got easier! datapasta lets you seamlessly paste data from spreadsheets or tables directly into your R scripts as data frames or tibbles. It's a real time-saver!
