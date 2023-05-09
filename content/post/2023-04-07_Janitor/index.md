@@ -32,3 +32,5 @@ The main `janitor` functions:
 The tabulate-and-report functions approximate popular features of SPSS and Microsoft Excel.
 
 `janitor` is a #tidyverse-oriented package. Specifically, it plays nicely with the %>% pipe and is optimized for cleaning data brought in with the `readr` and `readxl` packages.
+
+
