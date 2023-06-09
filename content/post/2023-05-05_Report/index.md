@@ -20,6 +20,7 @@ math = false
   focal_point = "Smart"
 
 +++
+
 `report` primary goal is to bridge the gap between R’s output and the formatted results contained in your manuscript. It automatically produces reports of models and data frames according to best practices guidelines (e.g., APA’s style), ensuring standardization and quality in results reporting.
 
 ```r
