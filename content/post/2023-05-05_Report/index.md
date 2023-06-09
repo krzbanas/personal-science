@@ -20,9 +20,9 @@ math = false
   focal_point = "Smart"
 
 +++
-`report`’s primary goal is to bridge the gap between R’s output and the formatted results contained in your manuscript. It automatically produces reports of models and data frames according to best practices guidelines (e.g., APA’s style), ensuring standardization and quality in results reporting.
+`report` primary goal is to bridge the gap between R’s output and the formatted results contained in your manuscript. It automatically produces reports of models and data frames according to best practices guidelines (e.g., APA’s style), ensuring standardization and quality in results reporting.
 
-
+```r
 library(report)
 
 model <- lm(Sepal.Length ~ Species, data = iris)
@@ -44,3 +44,6 @@ report(model)
 # Standardized parameters were obtained by fitting the model on a standardized
 # version of the dataset. 95% Confidence Intervals (CIs) and p-values were
 # computed using a Wald t-distribution approximation.
+
+```
+
