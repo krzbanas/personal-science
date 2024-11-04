@@ -1,5 +1,5 @@
 +++
-title = "Classification of the Residues after High and Low Order Explosions Using Machine Learning Techniques on Fourier Transform Infrared (FTIR) Spectra"
+title = "Sensing the Changes in Stratum Corneum Using Fourier Transform Infrared Microspectroscopy and Hyperspectral Data Processing."
 date = "2024-10-31"
 authors = ["K Banas", "A. M. Banas", "G. Pastorin". "N. M. Hong", "S. Gupta", "K. Dziedzic-Kocurek", "M B H Breese"]
 publication_types = ["2"]
@@ -10,7 +10,7 @@ image_preview = ""
 featured = true
 projects = []
 tags = []
-url_pdf = "https://www.mdpi.com/1420-3049/28/5/2233"
+url_pdf = "[https://www.mdpi.com/1420-3049/28/5/2233](https://www.mdpi.com/1424-8220/24/21/7054)"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -18,7 +18,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "https://doi.org/10.3390/molecules28052233"
+url_source = "[https://doi.org/10.3390/molecules28052233](https://doi.org/10.3390/s24217054)"
 math = true
 highlight = true
 [header]
@@ -26,4 +26,3 @@ image = ""
 caption = ""
 +++
 
-Sensing the Changes in Stratum Corneum Using Fourier Transform Infrared Microspectroscopy and Hyperspectral Data Processing. Sensors 2024, 24, 7054. https://doi.org/10.3390/s24217054
