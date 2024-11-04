@@ -1,7 +1,7 @@
 +++
-title = "Sensing the Changes in Stratum Corneum Using Fourier Transform Infrared Microspectroscopy and Hyperspectral Data Processing."
+title = "Sensing the Changes in Stratum Corneum Using Fourier Transform Infrared Microspectroscopy and Hyperspectral Data Processing"
 date = "2024-10-31"
-authors = ["K Banas", "A M Banas", "G Pastorin". "N M Hong", "S Gupta", "K Dziedzic-Kocurek", "M B H Breese"]
+authors = ["K Banas", "A M Banas", "G Pastorin", "N M Hong", "S Gupta", "K Dziedzic-Kocurek", "M B H Breese"]
 publication_types = ["2"]
 publication = "Sensors 24(7054)"
 publication_short = "Sensors, **IF=3.4 (2023)**"
@@ -24,6 +24,5 @@ highlight = true
 [header]
 image = ""
 caption = ""
-
 +++
 
