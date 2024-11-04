@@ -10,7 +10,7 @@ image_preview = ""
 featured = true
 projects = []
 tags = []
-url_pdf = "[https://www.mdpi.com/1420-3049/28/5/2233](https://www.mdpi.com/1424-8220/24/21/7054)"
+url_pdf = "[https://www.mdpi.com/1424-8220/24/21/7054]"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -18,11 +18,12 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "[https://doi.org/10.3390/molecules28052233](https://doi.org/10.3390/s24217054)"
+url_source = "[https://doi.org/10.3390/s24217054]"
 math = true
 highlight = true
 [header]
 image = ""
 caption = ""
+
 +++
 
