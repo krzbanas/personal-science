@@ -1,5 +1,5 @@
 +++
-title = "Sensing the Changes in Stratum Corneum Using Fourier Transform Infrared Microspectroscopy and Hyperspectral Data Processing"
+title = "Photothermal Infrared Imaging of Nanoplastics in Human Cells with Nanoscale Resolution"
 date = "2025-10-20"
 authors = ["Ewa Pięta", "Natalia Piergies", "Karolina Chrabąszcz", "Agnieszka Banas", "Krzysztof Banas", "Michael K. F. Lo", "Agnieszka Panek", "Wojciech M. Kwiatek", "Mark B. H. Breese" , "Katarzyna Pogoda"]
 publication_types = ["2"]
@@ -10,7 +10,7 @@ image_preview = ""
 featured = true
 projects = []
 tags = []
-url_pdf = "https://www.mdpi.com/1424-8220/24/21/7054"
+url_pdf = "https://pubs.acs.org/doi/10.1021/acsami.5c16048"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -18,7 +18,7 @@ url_project = ""
 url_slides = ""
 url_video = ""
 url_poster = ""
-url_source = "10.1021/acsami.5c16048"
+url_source = "https://10.1021/acsami.5c16048"
 math = true
 highlight = true
 [header]
